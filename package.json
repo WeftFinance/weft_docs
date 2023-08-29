@@ -1,0 +1,20 @@
+{
+  "name": "@weft-finance/docs",
+  "private": true,
+  "description": "Weft Finance Documentation",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vitepress dev content",
+    "build": "vitepress build content",
+    "preview": "vitepress preview content",
+    "deploy": "pnpm run build && firebase deploy --only hosting"
+  },
+  "keywords": [],
+  "author": "@weft-finance",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "1.0.0-rc.9"
+  }
+}
