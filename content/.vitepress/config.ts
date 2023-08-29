@@ -1,7 +1,5 @@
 import { defineConfig } from 'vitepress'
 
-// https://vitepress.dev/reference/site-config  
-// https://vitepress.dev/reference/default-theme-config
 
 export default defineConfig({
   title: "Weft Finance",
@@ -13,6 +11,8 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicons/favicon.svg' }],
     ['link', { rel: 'icon', type: 'image/png', href: '/favicons/favicon.png' }],
+    ['script', { src: 'https://www.googletagmanager.com/gtag/js?id=G-3PZRCH0F0E' }],
+    ['script', { src: '/gtag.js' }]
   ],
 
 
