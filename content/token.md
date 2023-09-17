@@ -30,7 +30,7 @@ The remaining 35% will be allocated to development releases and the promotion of
 
 3. Marketing and Promotion: An additional 10% of the token allocation will be devoted to promoting Weft dApps and executing actions to attract more community members and early adopters.
 
-![Weft Tokenomics](https://res.cloudinary.com/daisvxhyu/image/upload/v1692812382/Radix/1.jpg)
+![Weft Tokenomics](https://res.cloudinary.com/daisvxhyu/image/upload/v1694977047/weft/contents/tokenomics.png)
 
 ## Token Vesting
 

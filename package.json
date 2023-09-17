@@ -13,7 +13,7 @@
   },
   "keywords": [],
   "author": "@weft-finance",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "vitepress": "1.0.0-rc.9"
   }

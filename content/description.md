@@ -71,7 +71,7 @@ Bob borrowed 84 assets for 1 year with 5% interest. so he had to repay 84 x 1.05
 
 So we can effectively track each listed asset state by tracking the total amount borrowed and loan units for each borrower with the corresponding total loan units.
 
-## Represeting Units 
+## Reprenseting Units 
 As mentioned above, Deposit and Loan Units remain constant over time until the next interaction of the user. That gives two ways to be represented:
 
 - The first one is minting a fungible asset in an equal amount of units, we chose this option for deposit units.
