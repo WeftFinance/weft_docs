@@ -29,7 +29,7 @@ Following the Babylon launch, we transition to the **Weft Beta version** on the 
 
 Before the main net launch, we **begin the audit** of our Scrypto code base.
 
-### Listing and Liquidity Mining Launch (Second Half of October)
+### Listing and Liquidity Mining Launch (Second Half of October) <Badge type="info">Completed</Badge>
 
 We initiate the **listing process for WETF tokens** and **launch liquidity mining**. This launch encourages **active user participation** and fosters **ecosystem growth**.
 
