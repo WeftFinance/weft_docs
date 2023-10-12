@@ -11,8 +11,12 @@ hero:
       text: Documentation
       link: /overview
     - theme: alt
-      text: Check our PoC
-      link: https://poc.weft.finance
+      text: The $WEFT token
+      link: /token
+    - theme: alt
+      text: Roadmap
+      link: /roadmap
+
 features:
 
 

@@ -12,7 +12,7 @@ In late August, we initiate our journey by **launching our Validator Node** on t
 
 Weft validator node details can be found [here](https://explorer.radixdlt.com/#/validators/rv1qvdtttvdk4q4vtx4zh2h7752mg7ku9t9cpxk8ul4tw8qwtqztmuh5r9as40)
 
-## September 2023: Alpha Release
+## September 2023: Alpha Release <Badge type="info">Completed</Badge>
 
 In September, we will introduce the **Weft Alpha version** on RCNet V3 or Stoknet. **Early participants** can actively engage with the platform and offer **valuable feedback** to help shape our offerings. 
 
@@ -20,7 +20,12 @@ A total of **5,000,000 tokens (5% of the WEFT allocation)** will be distributed 
 
 ## October 2023: Beta Release
 
-### Beta Release on Stokenet (First Half of October)
+### Listing and Liquidity Mining Launch (First Half of October) <Badge type="info">Completed</Badge>
+
+We initiate the **listing process for WETF tokens** and **launch liquidity mining**. This launch encourages **active user participation** and fosters **ecosystem growth**.
+**20% of WEFT tokens** are allocated to **incentivize liquidity provision** through a liquidity mining program. Specific details will depend on the **DEX offerings** launched post-Babylon.
+
+### Beta Release on Stokenet (Second Half of October)
 
 Following the Babylon launch, we transition to the **Weft Beta version** on the final iteration of Stocknet. This phase is dedicated to **refining the platform** based on user feedback, and the distribution of **WEFT Tokens through airdrops continues** as part of the **5% allocation** mentioned earlier.
 
@@ -29,11 +34,7 @@ Following the Babylon launch, we transition to the **Weft Beta version** on the 
 
 Before the main net launch, we **begin the audit** of our Scrypto code base.
 
-### Listing and Liquidity Mining Launch (Second Half of October) <Badge type="info">Completed</Badge>
 
-We initiate the **listing process for WETF tokens** and **launch liquidity mining**. This launch encourages **active user participation** and fosters **ecosystem growth**.
-
-**20% of WEFT tokens** are allocated to **incentivize liquidity provision** through a liquidity mining program. Specific details will depend on the **DEX offerings** launched post-Babylon.
 
 ## November 2023: MVP Release
 
