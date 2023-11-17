@@ -22,7 +22,7 @@ A total of **5,000,000 tokens (5% of the WEFT allocation)** will be distributed 
 
 ### Listing and Liquidity Mining Launch (First Half of October) <Badge type="info">Completed</Badge>
 
-We initiate the **listing process for WETF tokens** and **launch liquidity mining**. This launch encourages **active user participation** and fosters **ecosystem growth**.
+We initiate the **listing process for WEFT tokens** and **launch liquidity mining**. This launch encourages **active user participation** and fosters **ecosystem growth**.
 **20% of WEFT tokens** are allocated to **incentivize liquidity provision** through a liquidity mining program. Specific details will depend on the **DEX offerings** launched post-Babylon.
 
 ### Beta Release on Stokenet (Second Half of October) <Badge type="info">Completed</Badge>
