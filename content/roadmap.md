@@ -30,15 +30,14 @@ We initiate the **listing process for WEFT tokens** and **launch liquidity minin
 Following the Babylon launch, we transition to the **Weft Beta version** on the final iteration of Stocknet. This phase is dedicated to **refining the platform** based on user feedback, and the distribution of **WEFT Tokens through airdrops continues** as part of the **5% allocation** mentioned earlier.
 
 
-### Blueprints Code Audit (Second Half of October)<Badge type="warning">Updated</Badge>
-
-Before the main net launch, we **begin the audit** of our Scrypto code base.
-
-
-
 ## November 2023: MVP Release
 
-### Main-net Launch (End of November)<Badge type="warning">Updated</Badge>
+### Blueprints Code Audit (Second Half of October)<Badge type="warning">Updated</Badge>
+
+Before the main net launch, we **begin the audit** of our Scrypto code base. Audit as stated and final report will be published mid December.
+
+
+### Main-net Launch (End of November)<Badge type="info">Completed</Badge> 🚀 
 
 Following the completion of the **audit phase**, we proceed with the **Mainnet Launch** on the Radix Babylon Network. This marks a **pivotal milestone** as we transition from testing to a **fully operational network**. More information regarding available features will be provided in the upcoming weeks.
 
