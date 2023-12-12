@@ -32,12 +32,14 @@ Following the Babylon launch, we transition to the **Weft Beta version** on the 
 
 ## November 2023: MVP Release
 
-### Blueprints Code Audit (Second Half of October)<Badge type="warning">Updated</Badge>
+### Blueprints Code Audit (Second Half of October) <Badge type="info">Completed</Badge> 🛡️
 
-Before the main net launch, we **begin the audit** of our Scrypto code base. Audit as stated and final report will be published mid December.
+Before the main net launch, we begin **the security audit** of our Scrypto code base. This audit had been conducted by [Pessimistic](https://pessimistic.io/), a leading security audit firm in the blockchain space.
+
+The security audit was comleted on December 8th 2023 with no critical issue found. The report can be found [here](https://github.com/pessimistic-io/audits/blob/main/Weft%20Finance%20Security%20Analysis%20by%20Pessimistic.pdf)
 
 
-### Main-net Launch (End of November)<Badge type="info">Completed</Badge> 🚀 
+### Main-net Launch (End of November) <Badge type="info">Completed</Badge> 🚀 
 
 Following the completion of the **audit phase**, we proceed with the **Mainnet Launch** on the Radix Babylon Network. This marks a **pivotal milestone** as we transition from testing to a **fully operational network**. More information regarding available features will be provided in the upcoming weeks.
 
