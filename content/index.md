@@ -18,16 +18,17 @@ hero:
       link: /roadmap
 
 features:
-
-
   - title: Lend
     details: Contribute to lending pools and earn interest
+    link: https://app.weft.finance/market
     icon: 💸
   - title: Borrow
     details: Lock up collateral and borrow against it
+    link: https://app.weft.finance/market
     icon: 🤝
   - title: Delegate
     details: Delegate your borrowing power while earning interest
+    link: https://app.weft.finance/market
     icon: 👥
   - title: Weft Runs On Radix
     details: For a user friendly and secure DeFi experience
