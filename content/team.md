@@ -74,5 +74,5 @@ const members = [
         A group of passionate people working together to contribute to the future of Decentralised Finance by building accessible financial services to everyone.
         </template>
     </VPTeamPageTitle>
-    <VPTeamMembers size="small" :members="members" />
+    <VPTeamMembers :members="members" />
 </VPTeamPage>
