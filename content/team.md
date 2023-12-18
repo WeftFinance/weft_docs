@@ -22,7 +22,7 @@ const members = [
   {
     avatar: '/team-members/zivile.png',
     name: 'Zivile',
-    title: 'UX/UI Designer',
+    title: 'Product Designer',
     links: [
       { icon: 'linkedin', link: 'https://www.linkedin.com/in/zivile-camara-477974196/' },
       // { icon: 'twitter', link: '' },
@@ -49,7 +49,7 @@ const members = [
   {
     avatar: '/team-members/maxence.jpeg',
     name: 'Maxence',
-    title: 'Product Manager',
+    title: 'Project Manager',
     links: [
       { icon: 'linkedin', link: 'https://www.linkedin.com/in/maxence-iritie-ab5253149/' },
       // { icon: 'twitter', link: '' },
