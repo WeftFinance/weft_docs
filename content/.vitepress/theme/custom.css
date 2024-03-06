@@ -8,9 +8,9 @@
     --vp-c-brand-dark: #3d9267;
     --vp-c-brand-darker: #265e42;
     --vp-c-brand-darkest: #19412d;
-    --vp-c-brand-dimm-1: rgba(112, 143, 255, 0.05);
-    --vp-c-brand-dimm-2: rgba(112, 143, 255, 0.2);
-    --vp-c-brand-dimm-3: rgba(112, 143, 255, 0.5);
+    --vp-c-brand-dimm-1: #19412d;
+    --vp-c-brand-dimm-2: #265e42;
+    --vp-c-brand-dimm-3: #3d9267;
 
     --vp-badge-info-text: var(--vp-c-brand-lightest);
     --vp-badge-info-bg: var(--vp-c-brand-1);

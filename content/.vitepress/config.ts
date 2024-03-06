@@ -55,20 +55,38 @@ export default defineConfig({
             text: 'Lending and Borrowing Operations',
             link: '/operations'
           },
+          {
+            text: 'The WEFT Token',
+            link: '/token',
+          },
+          {
+            text: 'Revenue and Insurance module',
+            link: '/revenue',
+          },
+          {
+            text: 'Roadmap',
+            link: '/roadmap',
+          }
         ]
       },
+
       {
-        text: 'The WEFT Token',
-        link: '/token',
+        text: 'Developer Guide',
+        // link: '/dev/overview',
+        items: [
+          {
+            text: 'Lending Pool',
+            link: '/dev/pool'
+          },
+          {
+            text: 'Lending Market',
+            link: '/dev/market'
+          },
+
+        ],
       },
-      {
-        text: 'Revenue and Insurance module',
-        link: '/revenue',
-      },
-      {
-        text: 'Roadmap',
-        link: '/roadmap',
-      }
+
+
 
     ],
 
