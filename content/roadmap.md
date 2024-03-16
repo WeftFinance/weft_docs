@@ -10,9 +10,9 @@ In late August, we initiate our journey by **launching our Validator Node** on t
 - **25% of staking fees for the subsequent 6 months:** Stakers during this period will share the remaining **25%** of tokens designated for the validator node staker airdrop, totaling **5,000,000 Weft tokens**. This period concludes the airdrops to our node stakers.
 - **1% staking fees after the first 12 months:** Following the initial distribution phase, the node fee rate will be set at **1%** for the foreseeable future.
 
-Weft validator node details can be found [here](https://explorer.radixdlt.com/#/validators/rv1qvdtttvdk4q4vtx4zh2h7752mg7ku9t9cpxk8ul4tw8qwtqztmuh5r9as40)
+Weft validator node details can be found [here](https://dashboard.radixdlt.com/network-staking/validator_rdx1sd6n65sx0thvfzfp6x0jp4qgwxtudpx575wpwqespdlva2wldul9xk)
 
-## September 2023: Alpha Release
+## September 2023: Alpha Release <Badge type="info">Completed</Badge>
 
 In September, we will introduce the **Weft Alpha version** on RCNet V3 or Stoknet. **Early participants** can actively engage with the platform and offer **valuable feedback** to help shape our offerings. 
 
@@ -20,32 +20,36 @@ A total of **5,000,000 tokens (5% of the WEFT allocation)** will be distributed 
 
 ## October 2023: Beta Release
 
-### Beta Release on Stokenet (First Half of October)
+### Listing and Liquidity Mining Launch (First Half of October) <Badge type="info">Completed</Badge>
+
+We initiate the **listing process for WEFT tokens** and **launch liquidity mining**. This launch encourages **active user participation** and fosters **ecosystem growth**.
+**20% of WEFT tokens** are allocated to **incentivize liquidity provision** through a liquidity mining program. Specific details will depend on the **DEX offerings** launched post-Babylon.
+
+### Beta Release on Stokenet (Second Half of October) <Badge type="info">Completed</Badge>
 
 Following the Babylon launch, we transition to the **Weft Beta version** on the final iteration of Stocknet. This phase is dedicated to **refining the platform** based on user feedback, and the distribution of **WEFT Tokens through airdrops continues** as part of the **5% allocation** mentioned earlier.
 
 
-### Blueprints Code Audit (Second Half of October)
-
-Before the main net launch, we **begin the audit** of our Scrypto code base.
-
-### Listing and Liquidity Mining Launch (Second Half of October)
-
-We initiate the **listing process for WETF tokens** and **launch liquidity mining**. This launch encourages **active user participation** and fosters **ecosystem growth**.
-
-**20% of WEFT tokens** are allocated to **incentivize liquidity provision** through a liquidity mining program. Specific details will depend on the **DEX offerings** launched post-Babylon.
-
 ## November 2023: MVP Release
 
-### Main-net Launch (First Half of November)
+### Blueprints Code Audit (Second Half of October) <Badge type="info">Completed</Badge> 🛡️
+
+Before the main net launch, we begin **the security audit** of our Scrypto code base. This audit had been conducted by [Pessimistic](https://pessimistic.io/), a leading security audit firm in the blockchain space.
+
+The security audit was comleted on December 8th 2023 with no critical issue found. The report can be found [here](https://github.com/pessimistic-io/audits/blob/main/Weft%20Finance%20Security%20Analysis%20by%20Pessimistic.pdf)
+
+
+### Main-net Launch (End of November) <Badge type="info">Completed</Badge> 🚀 
 
 Following the completion of the **audit phase**, we proceed with the **Mainnet Launch** on the Radix Babylon Network. This marks a **pivotal milestone** as we transition from testing to a **fully operational network**. More information regarding available features will be provided in the upcoming weeks.
 
-### Weft Staking (Second Half of November)
+## December 2023: Weft Staking<Badge type="warning">Updated</Badge>
+
+### Weft Staking
 
 Concurrently with the Main Net Launch, we introduce **Weft Staking**, allowing users to **earn rewards by securing** the Weft platform.
 
-### Early Adopter Incentive Program (Late November)
+### Early Adopter Incentive Program
 
 We initiate the distribution of **Weft dApp early users**, providing them with **20% of the WEFT total supply** through **staking pools**. Users can **stake their Deposit Units or Wefties** to receive **WEFT tokens as rewards**.
 

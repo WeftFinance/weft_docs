@@ -2,6 +2,10 @@
 
 In this section, we undertake a comprehensive description of lending and borrowing processes. We will elaborate on the stages that are involved in these operations. Ranging from the fundamental lending pool contributions to the multifaceted borrowing phases, collateral management, and the intricate mechanisms underpinning liquidation and effective protection of the Weft solvency.
 
+## Interest Rate and Interest Accrual
+
+Weft dynamically calculates interest rates based on pool usage using a defined interest strategy. As a reminder, an interest strategy is a function that takes pool state as input and gives interest rate as output. Users benefit from real-time interest rate updates on each user operation with a 1-minute debounce time, ensuring an immediate reflection of market dynamics in their lending or borrowing decisions.
+
 ## Lending
 
 Operations on the lending side are straightforward, involving contributing to the lending pool and receiving deposit units in return. The redemption process mirrors the contribution, with users initiating a redemption action by providing deposit units they wish to redeem and obtaining the corresponding assets in return.

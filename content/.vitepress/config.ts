@@ -35,6 +35,7 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Overview', link: '/overview' },
       { text: 'Roadmap', link: '/roadmap' },
+      { text: 'Launch the dApp', link: 'https://app.weft.finance' }
     ],
 
 
@@ -85,8 +86,18 @@ export default defineConfig({
 
         ],
       },
-
-
+      {
+        text: 'Revenue and Insurance module',
+        link: '/revenue',
+      },
+      {
+        text: 'Roadmap',
+        link: '/roadmap',
+      },
+      {
+        text: 'The team',
+        link: '/team'
+      }
 
     ],
 
