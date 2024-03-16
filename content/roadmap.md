@@ -27,7 +27,7 @@ We initiate the **listing process for WEFT tokens** and **launch liquidity minin
 
 ### Beta Release on Stokenet (Second Half of October) <Badge type="info">Completed</Badge>
 
-Following the Babylon launch, we transition to the **Weft Beta version** on the final iteration of Stocknet. This phase is dedicated to **refining the platform** based on user feedback, and the distribution of **WEFT Tokens through airdrops continues** as part of the **5% allocation** mentioned earlier.
+Following the Babylon launch, we transition to the **Weft Beta version** on the final iteration of Stoknet. This phase is dedicated to **refining the platform** based on user feedback, and the distribution of **WEFT Tokens through airdrops continues** as part of the **5% allocation** mentioned earlier.
 
 
 ## November 2023: MVP Release
@@ -36,13 +36,13 @@ Following the Babylon launch, we transition to the **Weft Beta version** on the 
 
 Before the main net launch, we begin **the security audit** of our Scrypto code base. This audit had been conducted by [Pessimistic](https://pessimistic.io/), a leading security audit firm in the blockchain space.
 
-The security audit was comleted on December 8th 2023 with no critical issue found. The report can be found [here](https://github.com/pessimistic-io/audits/blob/main/Weft%20Finance%20Security%20Analysis%20by%20Pessimistic.pdf)
+The security audit was completed on December 8th 2023 with no critical issue found. The report can be found [here](https://github.com/pessimistic-io/audits/blob/main/Weft%20Finance%20Security%20Analysis%20by%20Pessimistic.pdf)
 
 
 ### Main-net Launch (End of November) <Badge type="info">Completed</Badge> 🚀 
 
 Following the completion of the **audit phase**, we proceed with the **Mainnet Launch** on the Radix Babylon Network. This marks a **pivotal milestone** as we transition from testing to a **fully operational network**. More information regarding available features will be provided in the upcoming weeks.
-
+<!-- 
 ## December 2023: Weft Staking<Badge type="warning">Updated</Badge>
 
 ### Weft Staking
@@ -64,4 +64,43 @@ We **enhance the Weft interface** to improve the user experience and introduce *
 
 ### DAO Transition (Q4 2024)
 
-In the later phases, we concentrate on **transitioning to a Decentralized Autonomous Organization (DAO)** by the end of 2024. This transition involves enhancing partnerships and collaborating with the community to **shape the Weft ecosystem**.
+In the later phases, we concentrate on **transitioning to a Decentralized Autonomous Organization (DAO)** by the end of 2024. This transition involves enhancing partnerships and collaborating with the community to **shape the Weft ecosystem**. -->
+
+
+## March 2024: Weft Staking on Stokenet
+
+We invite our community to join the Weft staking test phase starting in March 2024. This test period will help validate both the concept and the technical implementation of staking on our platform.
+
+## April 2024: Team Allocations Unlocked
+
+In line with our initial commitments, April 10th will see th end of 6 months cliff period and the start of the 12-month linear unlocking of WEFT allocations designated for our core team members.
+
+
+## End of April 2024: Weft Staking on Mainnet
+
+By the end of April 2024, we're excited to launch staking of WEFT token on the Mainnet. This milestone is important for our project as it opens up opportunities for WEFT holders to directly contribute to the platform's stability and benefit from the profits generated on the Weft lending market for now and future application incubated by Weft. This move is our way of acknowledging and rewarding our community's dedication and active participation, ensuring they receive tangible benefits for their support.
+
+
+## Q2 2024: Launch of the WEFT Foundation
+
+We are setting up the Weft Foundation to guide the management of the WEFT token, reflecting our commitment to open and shared governance. This foundation will take care of the WEFT token, sticking to our principles of decentralization and making sure all activities within our ecosystem are fairly regulated. It's not just about overseeing; the foundation will also support and empower the project, keeping everything in line with what our community wants. This means listening to our community members and involving them in key decisions. With this approach, we aim to keep Weft innovative and true to the values it was built on, making sure our projects are well-coordinated and moving forward together.
+
+## Q2 2024: Introducing StakeDock - Radix Projects Staking as a Service on Mainnet
+
+Acknowledging the complexities often encountered in staking and token distribution, Weft is set to make a significant contribution to this area in June 2024. Leveraging our extensive experience, we will launch a turnkey staking platform aimed at simplifying the operation for web3 projects, both large and small. This initiative will introduce:
+- An intuitive interface: Making staking accessible to everyone.
+- A simple creation and configuration process: Project holders can set up their staking component in a few clicks, with options for project-specific configurations and visual customization for their and their clients' use.
+- An automatic distribution system: Ensuring smooth, robust and scalable management of deposits and token redistribution among participants.
+
+This platform aims not just to democratize access to staking but also to enrich the Radix ecosystem through increased integration and participation.
+
+## Q3 2024: New Interface
+
+With a continuous focus on improving user experience, Weft plans a major interface update by the third quarter of 2024. This renovation effort will primarily target our lending application, aiming to:
+- Offer smoother and more intuitive navigation: Allowing every user to find what they're looking for in just a few clicks.
+- Refined aesthetics: Aligned with the latest web design trends for a pleasant and modern visual experience.
+- Enhanced functionalities: Providing more options and flexibility in managing loans and investments.
+
+## Q4 2024: Transition to a DAO
+
+Continuing our commitment to decentralized governance, the last quarter of 2024 will be marked by a strategic evolution: WEFT's transition to a Decentralized Autonomous Organization (DAO). This move will complement the role of the WEFT Foundation by integrating a participatory governance system into our ecosystem. The DAO will serve as a key instrument for certain decision-making processes, relying on proposals, voting, and the active engagement of our community.
