@@ -75,6 +75,14 @@ export default defineConfig({
       {
         text: 'The team',
         link: '/team'
+      },
+      {
+        text: 'Term of use',
+        link: '/term-condition'
+      },
+      {
+        text: 'Privacy Policy',
+        link: '/privacy-policy'
       }
 
     ],
