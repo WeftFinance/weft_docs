@@ -2,7 +2,7 @@
 
 ![Weft components on Radix](https://res.cloudinary.com/daisvxhyu/image/upload/v1692811847/Radix/weft-components.png)
 
-The Weft lending platform is structured around two primary blueprints: the Lending Pool and the Lending Market. Additionally, a Non-Fungible Resource is employed to represent and store pertinent information related to collateral and loan positions and a Fungipble resource (token) is used as insurance for more security of lent assets.
+The Weft lending platform is structured around two primary blueprints: the Lending Pool and the Lending Market. Additionally, a Non-Fungible Resource is employed to represent and store pertinent information related to collateral and loan positions and a Fungible resource (token) is used as insurance for more security of lent assets.
 
 
 ## Lending Pool Component

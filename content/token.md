@@ -38,4 +38,4 @@ The concept of vesting assumes paramount significance in fostering stability and
 
 Allocation to the initial listing and promotion (20%) will not be vested as we wish to have WEFT as liquid as possible to play its protection role.
 
-Tokens distributed to the community will be accessible upon distribution, reaffirming our commitment to fairness and transparency. This comprehensive distribution process spans the journey from Babylon release to Weft’s eventual transition into a Decentralized Autonomous Organization, within a strategic timeframe of approximately 12 months.
+Tokens distributed to the community will be accessible upon distribution, reaffirming our commitment to fairness and transparency. This comprehensive distribution process spans the journey from Babylon release to Weft’s eventual transition into a Decentralized Autonomous Organization, within a strategic time frame of approximately 12 months.

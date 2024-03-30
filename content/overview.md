@@ -21,7 +21,7 @@ Weft stands as a decentralized lending platform, harnessing the capabilities of 
 Weft represents a collective journey driven by the passion and dedication of a core team of contributors. This collaborative effort entails management of key components such as the code base, dApp definition accounts, validation nodes, domain names, and an exhaustive array of resources essential for the seamless operation of our dApps. Our unwavering commitment to transparency finds expression in our pledge to open-source the source code before the official launch, thereby welcoming external contributions that elevate the project to new heights.
 
 
-## Our Vision for DeFin lending
+## Our Vision for DeFi lending
 With its unique features, particularly the utilization of Wefties to represent loan and collateral positions, Weft unlocks a realm of fascinating possibilities and applications. In essence, Wefties serve as practical financial instruments from their inception, that can be linked in a delegation-delegatee relation and capable of accruing yields rooted in deposit APY and loan interest.
 The implications are wide-ranging, from a parent allocating resources to their child through a delegated Wefty to companies employing Wefties with collateralized assets to facilitate loans for new employees. Financial institutions can also leverage Wefties to symbolize lent assets, directly enabling the sale of these assets as financial instruments, thus bypassing cumbersome traditional finance costs and delays.
 In essence, Weft has the ambition to pave the way for an innovative future in decentralized finance targeting everyday people, offering a range of applications that embrace flexibility, security, and efficiency.
