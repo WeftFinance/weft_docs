@@ -67,16 +67,16 @@ We **enhance the Weft interface** to improve the user experience and introduce *
 In the later phases, we concentrate on **transitioning to a Decentralized Autonomous Organization (DAO)** by the end of 2024. This transition involves enhancing partnerships and collaborating with the community to **shape the Weft ecosystem**. -->
 
 
-## March 2024: Weft Staking on Stokenet
+## March 2024: Weft Staking on Stokenet <Badge type="info">Completed</Badge>
 
 We invite our community to join the Weft staking test phase starting in March 2024. This test period will help validate both the concept and the technical implementation of staking on our platform.
 
-## April 2024: Team Allocations Unlocked
+## April 2024: Team Allocations Unlocked <Badge type="info">Completed</Badge>
 
 In line with our initial commitments, April 10th will see th end of 6 months cliff period and the start of the 12-month linear unlocking of WEFT allocations designated for our core team members.
 
 
-## End of April 2024: Weft Staking on Mainnet
+## End of April 2024: Weft Staking on Mainnet <Badge type="info">Completed</Badge>
 
 By the end of April 2024, we're excited to launch staking of WEFT token on the Mainnet. This milestone is important for our project as it opens up opportunities for WEFT holders to directly contribute to the platform's stability and benefit from the profits generated on the Weft lending market for now and future application incubated by Weft. This move is our way of acknowledging and rewarding our community's dedication and active participation, ensuring they receive tangible benefits for their support.
 
