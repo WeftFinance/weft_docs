@@ -2,6 +2,9 @@ import { defineConfig } from 'vitepress'
 
 
 export default defineConfig({
+
+  srcDir: './src',
+
   title: "Weft Finance",
   description: "Lend and Borrow on Radix",
 
