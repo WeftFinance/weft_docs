@@ -1,4 +1,4 @@
-## Weft Finance: Lending and Borrowing on radix
+# Weft Finance: Lending and Borrowing on Radix
 
 ## What is Weft?
 
@@ -24,3 +24,14 @@ Weft V2 introduce 3 key improvements to to allow support of a high amount of ass
 * Advance Collateral management allowing listing of NFT as collateral
 
 The feature section will give more details on these features.
+
+## What is Radix DLT
+
+[Radix](https://www.radixdlt.com/full-stack) is a decentralized network designed to provide a complete stack for building and deploying DeFi applications. Radix empowers developers to create fast, secure, and scalable solutions and stands out from other DeFi platforms due to its four key components:
+- **Cerberus**: A scalable consensus algorithm that offers low latency, quick finality, and infinite scalability, enabling the network to handle high demand efficiently.
+- **Radix Engine**: A virtual machine that runs Scrypto code, enforcing the network's rules while ensuring the security and correctness of DeFi applications with its built-in asset management, composability, and security features.
+- **Scrypto**: A purpose-built programming language for DeFi that leverages the capabilities of the Radix Engine. Scrypto’s asset-oriented design makes developing DeFi applications easier and more secure.
+- **Radix Wallet**: A user-friendly wallet that connects users to the Radix network, providing seamless interaction with DeFi applications.
+
+With these components, Radix aims to transform the future of decentralized finance, making it scalable and secure enough for mainstream adoption.
+

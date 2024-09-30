@@ -1,6 +1,8 @@
 
 # Extra features
 
+Weft makes available some extra features
+
 ## Pools configuration versioning 
 
 Weft V2 introduces configuration auto versioning by keeping a history of configuration each time there is a change in risk parameters like LTV and risk index. In addition to that, the current configuration version is kept in CDP NFT metadata on each operation. The allow CDP position to be linked to active configuration during their last edit. So even if there is a configuration change, the previous configuration will be kept for the CDP help checking process until the user updates his positions.

@@ -2,7 +2,7 @@
 
 # Borrowing
 
-Assets provided to lending pools are available for borrowers. The Weft Lending Protocol is over-collateralize, meaning borrowers must deposit collateral to borrow.
+Assets provided to lending pools are available for borrowers. The Weft Lending Protocol is over-collateralized, meaning borrowers must deposit collateral to borrow.
 
 
 ## User Positions NFT
@@ -11,9 +11,9 @@ Assets provided to lending pools are available for borrowers. The Weft Lending P
 
 
 
-* Collateral Positions: Organized based on the addresses of assets used as collateral and the deposited collateral amount. Users can have multiple collateral positions within a single Wefty.
+<!-- * Collateral Positions: Organized based on the addresses of assets used as collateral and the deposited collateral amount. Users can have multiple collateral positions within a single Wefty.
 * Loan Positions: These oversee the state of loans for different asset types associated with the amount borrowed. Loan positions are categorized by borrowed asset addresses, similar to collateral positions.
-
+ -->
 
 ## Collateral Pools
 
@@ -25,16 +25,33 @@ Collateral Pools enable borrowers to deposit collateral and obtain borrowing cap
 2. Deposit Unit Collateral Pool: Suppliers can provide Deposit Units obtained after supplying assets to lending pools, earning interest while leveraging assets for borrowing power.
 3. Liquid Stacking Unit Collateral Pool: Suppliers can provide listed Validator LSU as collateral and continue earning network emissions.
 
+## NFT Collateral Pool. 
+
+Under certain conditions, a non-fungible resource could be listed to be used as collateral. If The non-fungible can be redeemed for fungible resources already listed as collateral, it can be configured as accepted as collateral with a dedicated NFT Collateral Pool. 
+
+NFT Collateral borrowing power are evaluated in to stages: 
+
+
+
+1. First, the protocol determines the amount of redeemable fungible resources
+2. Evaluate borrowing power contributions as normal fungible collateral based on collateral pools LTV. 
+
+This feature can come in handy to leverage value locks under non-fungible resources like liquidity providing receipts or staking receipts without losing exposure to expected yield. 
+
+
+## LSU and Unstaking NFT natively supported
+(TODO)
+
 
 ## Borrowing Power
 
-To control the ratio of coins that can be borrowed using a collateral coin, Weft uses a parameter called the Loan-to-Value (LTV) Ratio for each supported collateral. For example, if you deposit 10,000 XRD into a Collateral Pool with an XRD price of $0.10 and an LTV of 70%, you can borrow up to 70% of your XRD value, which equals $700. The LTV ratio is usually below 1.
+To control the ratio of assets that can be borrowed using a collateral asset, Weft uses a parameter called the Loan-to-Value (LTV) Ratio for each supported collateral. For example, if you deposit 10,000 XRD into a Collateral Pool with an XRD price of $0.10 and an LTV of 70%, you can borrow up to 70% of your XRD value, which equals $700. The LTV ratio is usually below 1.
 
 Your borrowing power depends on the sum of each collateral value multiplied by its LTV. The maximum value of all borrowed assets must be lower than the borrowing power. Any attempt to borrow beyond this limit will be rejected by the protocol.
 
-Let's use the previous example with the following inputs:
+### **Example Scenarios**
 
-
+Let's use an example to illustrate calculation of the Borrowing Power:
 
 * Collateral: 10,000 XRD
 * Current XRD price: $0.10
@@ -68,19 +85,6 @@ To determine how much more you can borrow, subtract the current loan value from 
 
 Thus, with 10,000 XRD as collateral, and considering the already borrowed 500 xUSDC, you can borrow up to an additional $200 worth of assets. Any attempt to borrow beyond this limit will be rejected by the protocol.
 
-
-## NFT Collateral Pool. 
-
-Under certain conditions, a non-fungible resource could be listed to be used as collateral. If The non-fungible can be redeemed for fungible resources already listed as collateral, it can be configured as accepted as collateral with a dedicated NFT Collateral Pool. 
-
-NFT Collateral borrowing power are evaluated in to stages: 
-
-
-
-1. First, the protocol determines the amount of redeemable fungible resources
-2. Evaluate borrowing power contributions as normal fungible collateral based on collateral pools LTV. 
-
-This feature can come in handy to leverage value locks under non-fungible resources like liquidity providing receipts or staking receipts without losing exposure to expected yield. 
 
 
 ## Borrowing with efficiency 

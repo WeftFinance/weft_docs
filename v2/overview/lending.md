@@ -11,7 +11,7 @@ Lending Pools allow suppliers to earn interest through deposits and withdraw ass
 
 ## Deposit Units
 
-Weft tokenizes assets supplied to the lending pools as Weft Deposit Units (wAssets). These units, similar to Radix Pool Units, are interest-bearing fungible resources that represent proof of deposit and allow the claiming of deposited assets. They also enable the creation of secondary markets for constructing positions without direct interaction with the underlying lending pool, facilitating the development of derivative products that include debt obligations.
+Weft tokenizes assets supplied to the lending pools as Weft Deposit Units - also called w2-Assets: w2-XRD, w2-xUSDC, ... - These units, similar to Radix Pool Units, are interest-bearing fungible resources that represent proof of deposit and allow the claiming of deposited assets. They also enable the creation of secondary markets for constructing positions without direct interaction with the underlying lending pool, facilitating the development of derivative products that include debt obligations.
 
 ## Interest Rate
 
