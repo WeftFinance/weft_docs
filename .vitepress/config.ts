@@ -99,4 +99,22 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/WeftFinance' }
     ]
   }
+
+  ,
+
+  locales: {
+    root: {
+      label: 'English',
+      lang: 'en',
+      link: '/en'
+    },
+    fr: {
+      label: 'French',
+      lang: 'fr', // optional, will be added  as `lang` attribute on `html` tag
+      // link: '/fr/guide' // default /fr/ -- shows on navbar translations menu, can be external
+
+      // other locale specific properties...
+    }
+  }
+
 })
