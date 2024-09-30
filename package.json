@@ -2,7 +2,6 @@
   "name": "@weft-finance/docs",
   "private": true,
   "description": "Weft Finance Documentation",
-  "main": "index.js",
   "type": "module",
   "scripts": {
     "v1:dev": "vitepress dev v1",

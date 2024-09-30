@@ -21,8 +21,8 @@ export default defineConfig({
   themeConfig: {
 
     logo: {
-      light: '/Wft_full_blue.svg',
-      dark: '/Wft_full_green.svg'
+      light: '/icons/Wft_full_blue.svg',
+      dark: '/icons/Wft_full_green.svg'
     },
 
     search: {
@@ -41,9 +41,8 @@ export default defineConfig({
 
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Overview', link: '/overview' },
-      { text: 'Roadmap', link: '/roadmap' },
-      { text: 'Launch the dApp', link: 'https://app.weft.finance' }
+      { text: 'Overview', link: '/intro' },
+      { text: 'Launch the dApp', link: 'https://beta.weft.finance' }
     ],
 
     sidebar: [
@@ -53,15 +52,19 @@ export default defineConfig({
         items: [
           {
             text: 'Description and core concepts',
-            link: '/description'
+            link: '/intro'
           },
           {
-            text: 'On-ledger components',
-            link: '/components'
+            text: 'Lending',
+            link: '/lending'
           },
           {
-            text: 'Lending and Borrowing Operations',
-            link: '/operations'
+            text: 'Borrowing',
+            link: '/borrowing'
+          },
+          {
+            text: 'Borrowing',
+            link: '/liquidation'
           },
         ]
       },
