@@ -16,7 +16,7 @@ The second fee collection stream involves the collection of flash loan fees from
 
 ### Liquidation Bonus 
 
-The Weft dApp offers a liquidation bonus that incentivizes users to participate in the platform's liquidation activities, as they stand to benefit from the successful recovery of defaulted loans. Similar to the loan interest, a share of the liquidation bonus is collected as a fee by Weft.
+The Weft dApp offers a liquidation bonus that incentivize users to participate in the platform's liquidation activities, as they stand to benefit from the successful recovery of defaulted loans. Similar to the loan interest, a share of the liquidation bonus is collected as a fee by Weft.
 
 All revenue collected will be shared by the Weft dApp and WEFT token stakers. The Weft dApp will retain a portion of the collected revenue to cover its operational costs, while the remaining share will be distributed to WEFT token stakers through the Insurance Module.
 

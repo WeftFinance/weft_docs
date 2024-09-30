@@ -9,13 +9,13 @@ hero:
   actions:
     - theme: brand
       text: Documentation
-      link: /overview
+      link: /intro
     - theme: alt
-      text: The $WEFT token
+      text: Launch the dApp
       link: /token
-    - theme: alt
-      text: Roadmap
-      link: /roadmap
+    # - theme: alt
+    #   text: Roadmap
+    #   link: /roadmap
 
 features:
   - title: Lend
@@ -26,16 +26,16 @@ features:
     details: Lock up collateral and borrow against it
     link: https://app.weft.finance/market
     icon: 🤝
-  - title: Delegate
-    details: Delegate your borrowing power while earning interest
+  - title: Deploy
+    details: Strategies to maximize your yield suitable to your risk profile
     link: https://app.weft.finance/market
-    icon: 👥
+    icon: 📈
   - title: Weft Runs On Radix
     details: For a user friendly and secure DeFi experience
     link: https://www.radixdlt.com/full-stack
     icon: 
-      dark: /Original-White-Monochrome-outline.png
-      light: /Original-Black-Monochrome-outline.png
+      dark: /icons/Original-White-Monochrome-outline.png
+      light: /icons/Original-Black-Monochrome-outline.png
       width: 109
 ---
 

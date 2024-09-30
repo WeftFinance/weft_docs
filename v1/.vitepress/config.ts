@@ -3,17 +3,17 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
 
-  srcDir: './src',
+  srcDir: "",
 
-  title: "Weft Finance",
+  title: " ",
   description: "Lend and Borrow on Radix",
 
   lastUpdated: true,
   cleanUrls: true,
 
   head: [
-    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicons/favicon.svg' }],
-    ['link', { rel: 'icon', type: 'image/png', href: '/favicons/favicon.png' }],
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/icons/favicon.svg' }],
+    ['link', { rel: 'icon', type: 'image/png', href: '/icons/favicon.png' }],
     ['script', { src: 'https://www.googletagmanager.com/gtag/js?id=G-3PZRCH0F0E' }],
     ['script', { src: '/gtag.js' }]
   ],
@@ -26,7 +26,11 @@ export default defineConfig({
       options: {}
     },
 
-    logo: '/weft-logo.png',
+    logo: {
+      light: '/icons/Wft_full_blue.svg',
+      dark: '/icons/Wft_full_green.svg',
+    },
+
 
     editLink: {
       pattern: 'https://github.com/WeftFinance/weft_docs/tree/main/content/:path',

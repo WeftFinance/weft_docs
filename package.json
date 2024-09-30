@@ -5,11 +5,12 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vitepress dev",
-    "build": "vitepress build",
-    "preview": "vitepress preview",
-    "deploy": "pnpm run build && firebase deploy --only hosting"
+    "v1:dev": "vitepress dev v1",
+    "v1:build": "vitepress build v1",
+    "v1:preview": "vitepress preview v1",
+    "v2:dev": "vitepress dev v2",
+    "v2:build": "vitepress build v2",
+    "v2:preview": "vitepress preview v2"
   },
   "keywords": [],
   "author": "@weft-finance",
