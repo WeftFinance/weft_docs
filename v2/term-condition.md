@@ -1,6 +1,6 @@
 # Terms and Conditions of Use
 
-*Last Updated: 21/11/2023*
+*Last Updated: September 30th 2024*
 
 Welcome to Weft Finance! This document encompasses both the Weft Finance website and the app.weft.finance interface. Weft Finance provides information about a decentralized, non-custodial liquidity protocol, consisting of open-source, self-executing components deployed on Radix DLT's permission-less public distributed ledgers.
 

@@ -42,14 +42,14 @@ export default defineConfig({
 
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Overview', link: '/intro' },
+      { text: 'Overview', link: '/overview/intro' },
       { text: 'Launch the dApp', link: 'https://beta.weft.finance' }
     ],
 
     sidebar: [
       {
         text: 'Weft Overview',
-        link: '/intro',
+        link: '/overview/intro',
         items: [
           {
             text: 'Introduction',
@@ -78,7 +78,11 @@ export default defineConfig({
           {
             text: 'Other components',
             link: '/overview/components'
-          }
+          },
+          {
+            text: 'Glossary',
+            link: '/overview/glossary'
+          },
         ]
       },
 
@@ -95,10 +99,7 @@ export default defineConfig({
       //   text: 'Roadmap',
       //   link: '/roadmap',
       // },
-      {
-        text: 'Glossary',
-        link: '/glossary'
-      },
+
       {
         text: 'Term of use',
         link: '/term-condition'

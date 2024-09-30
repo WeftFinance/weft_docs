@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Documentation
-      link: /intro
+      link: /overview/intro
     - theme: alt
       text: Launch the dApp
       link: /token
