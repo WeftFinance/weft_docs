@@ -4,7 +4,7 @@ This roadmap outlines our **strategic direction** for the upcoming months, empha
 
 ## August 2023: Validator Node <Badge type="info">Completed</Badge>
 
-In late August, we initiate our journey by **launching our Validator Node** on the Radix Public Ledger. As outlined by our [**tokenomics**](/token#token-circulation-strategy), we will distribute **20% of WEFT tokens** to our Validator node stakers. The **validator fee rate** will vary from **100% to 1%** according to the following schedule:
+In late August, we initiate our journey by **launching our Validator Node** on the Radix Public Ledger. As outlined by our [**tokenomics**](token#token-circulation-strategy), we will distribute **20% of WEFT tokens** to our Validator node stakers. The **validator fee rate** will vary from **100% to 1%** according to the following schedule:
 
 - **100% staking fees for the first 6 months after the validator node launch:** During this period, stakers will receive **15,000,000 Weft tokens**, accounting for **75%** of the total tokens allocated for validator node staker airdrop.
 - **25% of staking fees for the subsequent 6 months:** Stakers during this period will share the remaining **25%** of tokens designated for the validator node staker airdrop, totaling **5,000,000 Weft tokens**. This period concludes the airdrops to our node stakers.
