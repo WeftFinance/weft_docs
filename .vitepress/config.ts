@@ -18,6 +18,10 @@ export default defineConfig({
 
   themeConfig: {
 
+    search: {
+      provider: 'local',
+      options: {}
+    },
 
     logo: '/weft-logo.png',
 

@@ -1,1 +1,0 @@
-import{_ as t,c as e,o as a}from"./chunks/framework.CUaJlt5R.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"dev/tutos.md","filePath":"dev/tutos.md","lastUpdated":null}'),o={name:"dev/tutos.md"};function s(r,n,c,d,p,_){return a(),e("div")}const m=t(o,[["render",s]]);export{l as __pageData,m as default};
