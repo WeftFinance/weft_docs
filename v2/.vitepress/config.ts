@@ -6,7 +6,7 @@ export default defineConfig({
 
   srcDir: "",
 
-  title: " ",
+  title: "v2",
   description: "Lend and Borrow on Radix",
 
   lastUpdated: true,
