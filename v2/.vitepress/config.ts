@@ -13,10 +13,10 @@ export default defineConfig({
   cleanUrls: true,
 
   head: [
-    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicons/favicon.svg' }],
-    ['link', { rel: 'icon', type: 'image/png', href: '/favicons/favicon.png' }],
-    ['script', { src: 'https://www.googletagmanager.com/gtag/js?id=G-3PZRCH0F0E' }],
-    ['script', { src: '/gtag.js' }]
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/icons/favicon.svg' }],
+    ['link', { rel: 'icon', type: 'image/png', href: '/icons/favicon.png' }],
+    // ['script', { src: 'https://www.googletagmanager.com/gtag/js?id=G-3PZRCH0F0E' }],
+    // ['script', { src: '/gtag.js' }]
   ],
 
   themeConfig: {
