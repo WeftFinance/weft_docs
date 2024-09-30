@@ -16,7 +16,7 @@ The health factor of a CDP is calculated as the total loan value of the CDP divi
 
 Let's consider an example where a user has a CDP containing XRD as collateral and xUSDC as the loan.
 
-
+## Example Scenarios
 
 * Collateral: 10,000 XRD
 * Current XRD price: $0.10

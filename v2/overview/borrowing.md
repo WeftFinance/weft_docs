@@ -69,7 +69,7 @@ To determine how much more you can borrow, subtract the current loan value from 
 Thus, with 10,000 XRD as collateral, and considering the already borrowed 500 xUSDC, you can borrow up to an additional $200 worth of assets. Any attempt to borrow beyond this limit will be rejected by the protocol.
 
 
-### NFT Collateral Pool. 
+## NFT Collateral Pool. 
 
 Under certain conditions, a non-fungible resource could be listed to be used as collateral. If The non-fungible can be redeemed for fungible resources already listed as collateral, it can be configured as accepted as collateral with a dedicated NFT Collateral Pool. 
 
@@ -83,7 +83,7 @@ NFT Collateral borrowing power are evaluated in to stages:
 This feature can come in handy to leverage value locks under non-fungible resources like liquidity providing receipts or staking receipts without losing exposure to expected yield. 
 
 
-### Borrowing with efficiency 
+## Borrowing with efficiency 
 
 Weft makes available efficiency mode under specific conditions on collateral and loan resources. Under this mode , borrowers can take advantage of higher LTV lending to higher borrowing power. 
 

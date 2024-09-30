@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
+
 export default defineConfig({
 
   srcDir: "",
@@ -48,43 +49,55 @@ export default defineConfig({
     sidebar: [
       {
         text: 'Weft Overview',
-        link: '/overview',
+        link: '/intro',
         items: [
           {
-            text: 'Description and core concepts',
-            link: '/intro'
+            text: 'Introduction',
+            link: '/overview/intro'
           },
           {
             text: 'Lending',
-            link: '/lending'
+            link: '/overview/lending'
           },
           {
             text: 'Borrowing',
-            link: '/borrowing'
+            link: '/overview/borrowing'
           },
           {
-            text: 'Borrowing',
-            link: '/liquidation'
+            text: 'Isolation',
+            link: '/overview/isolation'
           },
+          {
+            text: 'Liquidation',
+            link: '/overview/liquidation'
+          },
+          {
+            text: 'Extra features',
+            link: '/overview/extra'
+          },
+          {
+            text: 'Other components',
+            link: '/overview/components'
+          }
         ]
       },
 
-      {
-        text: 'The WEFT Token',
-        link: '/token',
-      },
+      // {
+      //   text: 'The WEFT Token',
+      //   link: '/token',
+      // },
 
+      // {
+      //   text: 'Revenue and Insurance',
+      //   link: '/revenue',
+      // },
+      // {
+      //   text: 'Roadmap',
+      //   link: '/roadmap',
+      // },
       {
-        text: 'Revenue and Insurance',
-        link: '/revenue',
-      },
-      {
-        text: 'Roadmap',
-        link: '/roadmap',
-      },
-      {
-        text: 'The team',
-        link: '/team'
+        text: 'Glossary',
+        link: '/glossary'
       },
       {
         text: 'Term of use',
