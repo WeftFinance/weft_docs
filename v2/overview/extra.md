@@ -3,6 +3,9 @@
 
 Weft makes available some extra features
 
+## LSU and Unstaking NFT natively supported
+//TODO: Doc for native support of LSU
+
 
 ## Pools configuration versioning 
 

@@ -50,6 +50,7 @@ export default defineConfig({
       {
         text: 'Weft Overview',
         link: '/overview/intro',
+        collapsed: true,
         items: [
           {
             text: 'Introduction',
@@ -75,15 +76,33 @@ export default defineConfig({
             text: 'Extra features',
             link: '/overview/extra'
           },
+
           {
             text: 'Other components',
             link: '/overview/components'
+          },
+          {
+            text: 'Fees',
+            link: '/overview/fees',
           },
           {
             text: 'Glossary',
             link: '/overview/glossary'
           },
         ]
+      },
+
+      {
+        text: 'Protocol configuration',
+        link: '/configuration/global-config',
+        collapsed: true,
+        items: [
+          {
+            text: 'Global configuration',
+            link: '/configuration/global-config'
+          },
+        ]
+
       },
 
       // {

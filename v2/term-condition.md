@@ -1,3 +1,5 @@
+  <button class="btn btn-accent">Hello daisyui</button>
+
 # Terms and Conditions of Use
 
 *Last Updated: September 30th 2024*

@@ -39,10 +39,6 @@ NFT Collateral borrowing power are evaluated in to stages:
 This feature can come in handy to leverage value locks under non-fungible resources like liquidity providing receipts or staking receipts without losing exposure to expected yield. 
 
 
-## LSU and Unstaking NFT natively supported
-(TODO)
-
-
 ## Borrowing Power
 
 To control the ratio of assets that can be borrowed using a collateral asset, Weft uses a parameter called the Loan-to-Value (LTV) Ratio for each supported collateral. For example, if you deposit 10,000 XRD into a Collateral Pool with an XRD price of $0.10 and an LTV of 70%, you can borrow up to 70% of your XRD value, which equals $700. The LTV ratio is usually below 1.
