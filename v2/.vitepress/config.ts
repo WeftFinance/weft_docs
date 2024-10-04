@@ -82,8 +82,8 @@ export default defineConfig({
             link: '/overview/components'
           },
           {
-            text: 'Fees',
-            link: '/overview/fees',
+            text: 'Revenue Streams',
+            link: '/overview/revenue',
           },
           {
             text: 'Glossary',
@@ -94,15 +94,26 @@ export default defineConfig({
 
       {
         text: 'Protocol configuration',
-        link: '/configuration/global-config',
+        link: '/configuration/global',
         collapsed: true,
         items: [
           {
             text: 'Global configuration',
-            link: '/configuration/global-config'
+            link: '/configuration/global'
+          },
+          // {
+          //   text: 'Lending configuration',
+          //   link: '/configuration/lending'
+          // },
+          {
+            text: 'Interest strategies',
+            link: '/configuration/interest'
+          },
+          {
+            text: 'Risk parameters',
+            link: '/configuration/risk-config'
           },
         ]
-
       },
 
       // {
@@ -135,8 +146,5 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/WeftFinance' }
     ]
   }
-
-  ,
-
 
 })

@@ -54,21 +54,18 @@ LoanConfigs
     Config id 0
         description: "Ecosystem market mover (XRD)",
         borrowMaxRiskIndex: 3,
-        borrowMaxRiskIndex: 0,
         loanValueFactor: 1,
         loanCloseFactor: 0.5
 
     Config id 1
         description: "Stable coin (USDC, USDT ...)",
         borrowMaxRiskIndex: 2,
-        borrowMaxRiskIndex: 0,
         loanValueFactor: 1,
         loanCloseFactor: 0.5
 
     Config id 2
         description: "Global Market Mover (BTC, ETH ...)",
         borrowMaxRiskIndex: 1,
-        borrowMaxRiskIndex: 0,
         loanValueFactor: 1,
         loanCloseFactor: 0.5
 
@@ -120,3 +117,32 @@ CollateralConfigs
         loanToValueRatio: 0.92,
         liquidationThresholdSpread: 0.0,
         liquidationBonusRate: 0.05,
+
+
+IsolationConfig[] =
+    [
+        // 0 =>
+        {
+            description: "Low risk: native assets",
+            riskIndex: 0,
+            isolationMode: { type: "Loose" },
+        },
+        // 1 =>
+        {
+            description: "Low risk: bridged assets",
+            riskIndex: 1,
+            isolationMode: { type: "Loose" },
+        },
+        // 2 =>
+        {
+            description: "Medium risk: project tokens",
+            riskIndex: 2,
+            isolationMode: { type: "Loose" },
+        },
+        // 3 =>
+        {
+            description: "Medium risk: established meme coins",
+            riskIndex: 3,
+            isolationMode: { type: "Strict" },
+        }
+    ]
