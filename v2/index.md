@@ -11,8 +11,8 @@ hero:
       text: Documentation
       link: /overview/intro
     - theme: alt
-      text: Launch the dApp
-      link: /token
+      text: Launch the dApp (Beta)
+      link: https://beta.weft.finance
     # - theme: alt
     #   text: Roadmap
     #   link: /roadmap
@@ -20,16 +20,16 @@ hero:
 features:
   - title: Lend
     details: Contribute to lending pools and earn interest
-    link: https://app.weft.finance/market
+    link: https://beta.weft.finance/market
     icon: 💸
   - title: Borrow
     details: Lock up collateral and borrow against it
-    link: https://app.weft.finance/market
+    link: https://beta.weft.finance/market
     icon: 🤝
-  - title: Deploy
-    details: Strategies to maximize your yield suitable to your risk profile
-    link: https://app.weft.finance/market
-    icon: 📈
+  # - title: Deploy
+  #   details: Strategies to maximize your yield suitable to your risk profile
+  #   link: https://beta.weft.finance/market
+  #   icon: 📈
   - title: Weft Runs On Radix
     details: For a user friendly and secure DeFi experience
     link: https://www.radixdlt.com/full-stack
