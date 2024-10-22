@@ -83,10 +83,12 @@ Thus, with 10,000 XRD as collateral, and considering the already borrowed 500 xU
 
 
 
-## Borrowing with efficiency 
+## Efficient Borrowing
 
-Weft makes available efficiency mode under specific conditions on collateral and loan resources. Under this mode , borrowers can take advantage of higher LTV lending to higher borrowing power. 
+Weft offers an efficiency mode for borrowing when highly correlated collateral and loan resources are used. In this mode, borrowers benefit from higher Loan-to-Value (LTV) ratios, allowing for greater borrowing power.
 
-Specifically, Weft enables automatic efficiency on any CDP with only ONE loan position. So if there specific loan to value ratio defined as efficiency parameters in one or many collateral, they will be used systematically. 
+Each loan and collateral resource can be assigned to a correlation group if applicable. For example, xUSDT and xUSDC may belong to the same correlation group. Weft enables automatic efficiency for any Collateralized Debt Position (CDP) that includes only one correlation group based on the collateral and loan resources present. The LTV ratio specified for that correlation group is then applied to all the collateral within the CDP.
 
-On the other hand, efficiency mode is disabled if there is more than one loan position. As CDP are simple NFT, the user can create as many as he would like to have and optimize his collateral distribution to take advantage of available efficiency pairs configured. 
+However, efficiency mode is disabled if multiple correlation groups are detected within a CDP. Since CDPs are represented as simple NFTs, users can create as many as they wish to optimize their collateral distribution and take advantage of available correlation groups.
+
+In addition to Correlation Groups, Weft allows for the configuration of a default LTV that applies when the borrowed resource matches the collateral resource. However, this setting is only effective for CDPs that contain a single loan position and resulting LTV as priority over Correlation Groups LTV.

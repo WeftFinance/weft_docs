@@ -1,20 +1,17 @@
 
-# **Risk Index and Isolation**
+# **Isolation**
 
-In addition to the Loan-to-Value (LTV) ratio, each collateral in the Weft protocol has a **risk index** that indicates its risk level, which goes beyond standard metrics like volatility or liquidity. This risk index is used in combination with the **Max Collateral Risk Index** assigned to each lending pool. The purpose of these parameters is to apply effective isolation of collateral, ensuring that assets with different risk levels are managed separately. The isolation process happens in two main steps:
+In the Weft protocol, each collateral is assigned an Isolation Group that represents its risk level, going beyond standard metrics such as volatility or liquidity. This Isolation Group is used together with the **Excluded Isolation Groups** designated for each lending pool to effectively isolate different levels of risk. The aim is to ensure that assets with varying risk levels are managed separately. In simple terms, only collateral with the same Isolation Group can be combined, and loans can only be taken out if the requested resources do not belong to an excluded Isolation Group. The isolation process involves two main steps:
 
-## **1. Evaluation of the CDP Risk Index**
+## **1. Evaluating the CDP's Isolation Group**
 
-The **Collateralized Debt Position (CDP)** risk index is determined based on all available collateral. There are two ways to define a collateral risk index:
+The Isolation Group for a **Collateralized Debt Position (CDP)** is determined by considering all available collateral. The evaluation follows a straightforward rule: all collaterals in the CDP must belong to the same Isolation Group. If multiple Isolation Groups are present, the CDP fails validation.
 
-- **Loose Risk Index**: If the collateral is assigned a loose risk index, the CDP risk index will be the weighted average of all loose indexes, weighted by the value of each collateral.
-- **Strict Risk Index**: If any collateral in the CDP has a strict risk index, the CDP risk index becomes the highest strict index of all collaterals in the position. This ensures that strict risk collaterals have priority in determining the overall risk.
+## **2. Comparing with Loan Excluded Isolation Groups**
 
-## **2. Comparison with Loan Max Collateral Risk Index**
+After establishing the CDP's Isolation Group, it is checked against the **Excluded Isolation Groups** for the loan being requested or already held. If the CDP's Isolation Group is excluded by any of the loan positions, the request is denied. This ensures that high-risk collateral does not back loans intended for lower-risk pools.
 
-Once the CDP risk index is evaluated, it is compared against the **Max Collateral Risk Index** of the loan being requested. If the CDP risk index exceeds the loan’s Max Collateral Risk Index, the borrowing request will be denied. This ensures that high-risk collateral does not secure loans that are intended for low-risk pools. For example, if a loan does not accept risky collateral, the protocol will reject the request to borrow if the collateral includes high-risk assets.
-
-
+<!-- 
 ## **Example Scenarios**
 
 To illustrate how this process works, let's consider two scenarios involving different types of collateral and loan conditions.
@@ -70,4 +67,4 @@ To illustrate how this process works, let's consider two scenarios involving dif
 2. **Comparison with Loan Max Collateral Risk Index:**
    - The CDP Risk Index (4.44) is compared to the loan’s Max Collateral Risk Index (4.5).
    - Since the CDP Risk Index is lower than the Max Collateral Risk Index, the loan request for 5,000 xUSDT is **approved**.
-
+ -->

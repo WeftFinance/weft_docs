@@ -20,11 +20,11 @@ hero:
 features:
   - title: Lend
     details: Contribute to lending pools and earn interest
-    link: https://beta.weft.finance/market
+    link: /overview/lending
     icon: 💸
   - title: Borrow
     details: Lock up collateral and borrow against it
-    link: https://beta.weft.finance/market
+    link: /overview/borrowing
     icon: 🤝
   # - title: Deploy
   #   details: Strategies to maximize your yield suitable to your risk profile
