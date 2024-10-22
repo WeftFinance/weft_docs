@@ -3,9 +3,11 @@
 
 Weft makes available some extra features
 
-## LSU and Unstaking NFT natively supported
-//TODO: Doc for native support of LSU
+## Native Support for LSU and Unstaking NFTs
 
+Weft provides native support for all current and future Liquid Staking Units (LSUs) on the Radix Network. Since LSUs are integrated directly into the Radix ledger, there is always an option to redeem them for their corresponding XRD value. To keep things straightforward, LSU risk configurations match those of XRD, meaning that LSUs are treated similarly to XRD when checking Collateralized Debt Position (CDP) health. Although LSUs use the XRD configuration, their value is actually based on redeemable XRD.
+
+When an LSU is unstaked, a cooldown period of approximately 7 days applies. During this time, the unstaker receives a Claim NFT, which can be used to claim the underlying XRD once the cooldown is over. Weft also supports this Claim NFT natively, just as it does with LSUs, because the Radix ledger provides all the necessary information to access the underlying XRD value.
 
 ## Pools configuration versioning 
 

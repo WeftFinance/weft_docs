@@ -9,18 +9,8 @@
 
 # Risk Parameters
 
-These parameters form the risk management framework within the Weft protocol, ensuring that borrowing and collateralization activities are managed safely and efficiently.
+Following parameters form the risk management framework within the Weft protocol, ensuring that borrowing and collateralization activities are managed safely and efficiently.
 
-## Loan Resource Config
-
-This configuration defines the borrowing terms for different assets:
-
-- **loanCloseFactor**: The maximum portion of a loan that can be repaid during a liquidation process.
-- **loanValueFactor**: A multiplier used to adjust the impact of a loan position, potentially increasing its weight to address certain risk factors.
-
-| **ID** | **Description** | **loanCloseFactor** | **loanValueFactor** | **Associated Resources**       |
-|--------|-----------------|---------------------|---------------------|--------------------------------|
-| O      | Default         | 0.5                 | 1                   | XRD, xUSDC, xUSDT, xETH, xBTC  |
 
 ## LTV and Liquidation Threshold
 
@@ -38,7 +28,7 @@ These parameters determine when a collateral asset is considered sufficient to c
 | 3      | dApp Utility Tokens             | 0.25                        | 0.5                       | 15%                        | FLOOP, CAVIAR, OCI, DFP2, ASTRL, WEFT         |
 | 4      | Meme Coins                      | 0.15                        | 0.3                       | 15%                        |                                              |
 | 5      | Default Efficiency Config       | 0.95                        | 0.95                      | 5%                         | (Same resources in the pair)                 |
-| 6      | Default Correlation Group       | 0.9                         | 0.9                       | 10%                        |                                              |
+| 6      | Default Correlation Group       | 0.9                         | 0.9                       | 10%                        |(Use for all efficiency groups)                                              |
 
 ## Correlation Groups
 
@@ -58,3 +48,14 @@ These groups categorize different collateral types based on their risk levels, e
 | 0      | Default (no isolation)       | XRD (With All LSU), xUSDC, xUSDT, xETH, xBTC, LSULP |
 | 2      | Ecosystem dApp Tokens        | FLOOP, CAVIAR, OCI, DFP2, ASTRL, WEFT            |
 | 3      | Meme Coins                   |                                                 | 
+
+## Loan Resource Config
+
+This configuration defines the borrowing terms for different assets:
+
+- **loanCloseFactor**: The maximum portion of a loan that can be repaid during a liquidation process.
+- **loanValueFactor**: A multiplier used to adjust the impact of a loan position, potentially increasing its weight to address certain risk factors.
+
+| **ID** | **Description** | **loanCloseFactor** | **loanValueFactor** | **Associated Resources**       |
+|--------|-----------------|---------------------|---------------------|--------------------------------|
+| O      | Default         | 0.5                 | 1                   | XRD, xUSDC, xUSDT, xETH, xBTC  |
