@@ -11,9 +11,6 @@ Assets provided to lending pools are available for borrowers. The Weft Lending P
 
 
 
-<!-- * Collateral Positions: Organized based on the addresses of assets used as collateral and the deposited collateral amount. Users can have multiple collateral positions within a single Wefty.
-* Loan Positions: These oversee the state of loans for different asset types associated with the amount borrowed. Loan positions are categorized by borrowed asset addresses, similar to collateral positions.
- -->
 
 ## Collateral Pools
 

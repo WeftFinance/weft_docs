@@ -51,4 +51,4 @@ For instance, if the price of XRD drops to $0.05:
 In this scenario, the health factor exceeds 1, indicating that the CDP is now under-collateralize and subject to liquidation. A liquidator could repay the debt and claim the collateral, plus a liquidation bonus.
 
 ## Liquidation of NFT Collateral
-(TODO)
+(//TODO)

@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: Documentation
-      link: /overview/intro
+      link: /intro/intro
     - theme: alt
       text: Launch the dApp (Beta)
-      link: https://beta.weft.finance
+      # link: https://beta.weft.finance
     # - theme: alt
     #   text: Roadmap
     #   link: /roadmap

@@ -8,7 +8,7 @@
 
 Weft is a decentralized lending platform that harnesses the capabilities of Radix DLT to provide a fast, secure, and innovative approach to borrowing and lending assets. With Weft, users can easily create and manage collateralize debt positions (CDPs) encapsulated within NFTs called Wefties. The platform allows users to lend digital assets, earn yields, lock collateral, and access loans, all while prioritizing security through a unique method of storing and managing loan and deposit-related states.
 
-The Weft Finance lending market went live on November 30, 2024. So far it’s playing a quite useful role in the Radix Ecosystem allowing users to leverage their XRD, LSULP, or xUSDC to get xUSDC or XRD liquidity without losing their exposition. But we know that 6 assets offer quite narrow possibilities and we believe it’s time to go the extra mile.
+The Weft Finance lending market went live on November 30, 2020. So far it’s playing a quite useful role in the Radix Ecosystem allowing users to leverage their XRD, LSULP, or xUSDC to get xUSDC or XRD liquidity without losing their exposition. But we know that 6 assets offer quite narrow possibilities and we believe it’s time to go the extra mile.
 
 The Radix ecosystem is growing on digital assets, we have a wide range of digital assets boasting value for their holders with various utilities. Blue ship dApps like CaviarNine, Ociswap, and DefiPlaza cover needs for tokens trading, At Weft, we believe it’s time to add a bigger contribution to the lending landscape. We aim to provide options for Radix ecosystem asset holders to leverage on the value they hold and get liquidity not only in XRD and xUSDC but also in many other quality assets with decent liquidity.
 

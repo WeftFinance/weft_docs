@@ -42,20 +42,35 @@ export default defineConfig({
 
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Overview', link: '/overview/intro' },
-      { text: 'Launch the dApp', link: 'https://beta.weft.finance' }
+      { text: 'Overview', link: '/intro/intro' },
+      // { text: 'Launch the dApp', link: 'https://beta.weft.finance' }
     ],
 
     sidebar: [
       {
-        text: 'Weft Overview',
-        link: '/overview/intro',
-        collapsed: true,
+        text: 'What is Weft?',
+        link: '/intro/intro',
+        collapsed: false,
+        items: [{
+          text: 'Introduction',
+          link: '/intro/intro'
+        },
+        {
+          text: 'FAQ',
+          link: '/intro/faq'
+        },
+        {
+          text: 'Glossary',
+          link: '/intro/glossary'
+        },
+        ]
+      },
+      {
+        text: 'Overview',
+        link: '/overview/lending',
+        collapsed: false,
         items: [
-          {
-            text: 'Introduction',
-            link: '/overview/intro'
-          },
+
           {
             text: 'Lending',
             link: '/overview/lending'
@@ -85,16 +100,14 @@ export default defineConfig({
             text: 'Revenue Streams',
             link: '/overview/revenue',
           },
-          {
-            text: 'Glossary',
-            link: '/overview/glossary'
-          },
+
         ]
       },
 
       {
         text: 'Protocol configuration',
         link: '/configuration/global',
+        collapsed: false,
         items: [
           {
             text: 'Global configuration',
@@ -124,6 +137,7 @@ export default defineConfig({
       //   text: 'Roadmap',
       //   link: '/roadmap',
       // },
+
       {
         text: 'Risks disclosure',
         link: '/risks'

@@ -15,7 +15,6 @@ Weft tokenizes assets supplied to the lending pools as Weft Deposit Units - also
 
 ## Interest Rate
 
-<!-- Interest paid by borrowers to lenders is dynamically determined by an interest strategy curve. This curve functions by taking the lending pool usage as input and returning an interest rate as output, following the principles of supply and demand — the interest rate increases as the pool usage grows. -->
 
 Weft's lending interest rates are determined by the Utilization Rate of resource pools, reflecting the availability of capital. The interest model helps manage liquidity risk by incentivizing users to keep liquidity at healthy levels:
 
