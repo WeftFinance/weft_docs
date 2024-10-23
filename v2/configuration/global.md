@@ -9,15 +9,8 @@ The table below outlines the key global parameters used within the Weft protocol
 | **MaxCdpPosition**| To avoid "state bomb" where transaction fees become too high due to excessive state loading, the maximum number of positions allowed in a Wefty is limited.    | 10 |
 | **PriceExpirationPeriod**| The duration (in seconds) for which a fetched asset price remains valid. This represents the maximum accepted keep-alive period from price feeds.|  14400<br/> (4 hours) |
 | **PriceCacheMode**| Price data from Oracles is cached to save on transaction fees. The two caching modes are: **Hash** (cached per transaction) and **Debounce** (cached within a period). | Hash           |
+|**MaxClaimNftValue**|Maximum value in XRD of an unstaking Claim NFT allowed in a CDP|10000000|
 
-## Lending pools limits
-
-| **Parameter**| **Description** | **Current Value** |
-|--------------|-----------------|-------------------|
-|**FlashLoanAmountLimit**| Define the maximum amount that can be borrowing a flash loan. It'as an optional parameter, but if defined, It can be in two ways: Fix amount, or a ratio of current total supply |SupplyRatio: 20%|
-|**DepositLimit**|Define the maximum amount of an asset that can be deposited into a lending pool. It is defined in similar ways of the FlashLoanAmountLimit|SupplyRatio: 50%|
-|**UtilizationLimit**|Maximum allowed pool usage. Meaning the max ratio between total borrowed asset and the total deposited assets| 100% (Not defined)|
-|**InterestUpdatePeriod**|Define (in seconds) the period of interest accrual update and protocol fee calculation| 86400 (1 day)|
 
 
 ## Protocol Fee Configuration 

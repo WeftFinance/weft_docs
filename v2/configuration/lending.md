@@ -1,6 +1,6 @@
-# Interest Strategies in Weft
+# Lending configuration
 
-Weft's lending interest rates are determined by the Utilization Rate of resource pools, reflecting the availability of capital. The interest model helps manage liquidity risk by incentivizing users to keep liquidity at healthy levels:
+<!-- Weft's lending interest rates are determined by the Utilization Rate of resource pools, reflecting the availability of capital. The interest model helps manage liquidity risk by incentivizing users to keep liquidity at healthy levels:
 
 - **When capital is abundant:** Low interest rates are applied to encourage borrowing.
 - **When capital is scarce:** High interest rates incentivize debt repayment and attract new capital deposits.
@@ -23,9 +23,9 @@ Weft uses three different interest rate curves for various loan profiles, each t
 
 2. **XRD Interest Curve:** Although XRD is a volatile asset, lending it is encouraged due to its role in high-yield strategies. However, in the Max Utilization phase, interest rates climb aggressively to reduce risk and discourage further borrowing when the pool is nearing its capacity.
 
-3. **Volatile Asset Curve:** For highly volatile assets, borrowing is generally discouraged. The interest rates start higher than those for stablecoins or XRD and exhibit a much steeper climb in the Max Utilization phase, reflecting the increased risk associated with these assets.
+3. **Volatile Asset Curve:** For highly volatile assets, borrowing is generally discouraged. The interest rates start higher than those for stablecoins or XRD and exhibit a much steeper climb in the Max Utilization phase, reflecting the increased risk associated with these assets. -->
 
-## Interest Rate Breakpoints
+## Interest rate curves
 
 The table below details the interest rate progression for each type of asset across the three phases:
 
@@ -36,3 +36,14 @@ The table below details the interest rate progression for each type of asset acr
 | 2        | Volatile Assets      | 0% to 6%             | 6% to 150%             | 100% to 1500%          |xwBTC,xETH|
 
 These breakpoints ensure that interest rates reflect the varying levels of risk and demand associated with different types of assets, allowing Weft to manage liquidity effectively while optimizing returns for lenders.
+
+![Interest Rate Curves (Log Scale)](/interest-rate-curves.png "Interest Rate Curves (Log Scale)")
+
+## Lending pools limits
+
+| **Parameter**| **Description** | **Current Value** |
+|--------------|-----------------|-------------------|
+|**FlashLoanAmountLimit**| Define the maximum amount that can be borrowing a flash loan. It'as an optional parameter, but if defined, It can be in two ways: Fix amount, or a ratio of current total supply |SupplyRatio: 20%|
+|**DepositLimit**|Define the maximum amount of an asset that can be deposited into a lending pool. It is defined in similar ways of the FlashLoanAmountLimit|SupplyRatio: 50%|
+|**UtilizationLimit**|Maximum allowed pool usage. Meaning the max ratio between total borrowed asset and the total deposited assets| 100% (Not defined)|
+|**InterestUpdatePeriod**|Define (in seconds) the period of interest accrual update and protocol fee calculation| 86400 (1 day)|

@@ -7,7 +7,7 @@
 |**UtilizationLimit**|Maximum allowed pool usage. Meaning the max ratio between total borrowed asset and the total deposited assets| 100% (Not defined)|
 |**InterestUpdatePeriod**|Define (in seconds) the period of interest accrual update and protocol fee calculation| 86400 (1 day)| -->
 
-# Risk Parameters
+# Borrowing configuration
 
 Following parameters form the risk management framework within the Weft protocol, ensuring that borrowing and collateralization activities are managed safely and efficiently.
 

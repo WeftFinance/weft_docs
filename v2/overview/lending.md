@@ -15,7 +15,20 @@ Weft tokenizes assets supplied to the lending pools as Weft Deposit Units - also
 
 ## Interest Rate
 
-Interest paid by borrowers to lenders is dynamically determined by an interest strategy curve. This curve functions by taking the lending pool usage as input and returning an interest rate as output, following the principles of supply and demand — the interest rate increases as the pool usage grows.
+<!-- Interest paid by borrowers to lenders is dynamically determined by an interest strategy curve. This curve functions by taking the lending pool usage as input and returning an interest rate as output, following the principles of supply and demand — the interest rate increases as the pool usage grows. -->
 
-The interest strategy curve is made up of multiple linear segments defined by breakpoints. While Weft’s interest strategy can have various breakpoints, we use a trilinear model with three breakpoints to effectively cover the most common scenarios.
+Weft's lending interest rates are determined by the Utilization Rate of resource pools, reflecting the availability of capital. The interest model helps manage liquidity risk by incentivizing users to keep liquidity at healthy levels:
+
+- **When capital is abundant:** Low interest rates are applied to encourage borrowing.
+- **When capital is scarce:** High interest rates incentivize debt repayment and attract new capital deposits.
+
+
+The interest rate model operates in three distinct phases based on the utilization of the pool: **Normal Demand, High Demand,** and **Max Utilization.** Each phase has specific thresholds and responds to the level of capital usage in the pool:
+
+1. **Normal Demand (0-70% usage):** When the pool usage is below 70%, the interest rate remains relatively low to incentivize more borrowing. This phase ensures that liquidity remains active and accessible.
+
+2. **High Demand (70-90% usage):** At this stage, the pool is experiencing higher demand for resources. The interest rate begins to increase more significantly as the utilization approaches 90%, signaling that capital is becoming limited.
+
+3. **Max Utilization (90-100% usage):** When usage exceeds 90%, the pool is considered to be at a critical level. In this phase, interest rates rise sharply to deter new borrowing and strongly encourage repayments, as further borrowing could destabilize the pool's liquidity.
+
 

@@ -95,23 +95,18 @@ export default defineConfig({
       {
         text: 'Protocol configuration',
         link: '/configuration/global',
-        collapsed: true,
         items: [
           {
             text: 'Global configuration',
             link: '/configuration/global'
           },
-          // {
-          //   text: 'Lending configuration',
-          //   link: '/configuration/lending'
-          // },
           {
-            text: 'Interest strategies',
-            link: '/configuration/interest'
+            text: 'Lending configuration',
+            link: '/configuration/lending'
           },
           {
-            text: 'Risk parameters',
-            link: '/configuration/risk-config'
+            text: 'Borrowing configuration',
+            link: '/configuration/borrowing'
           },
         ]
       },
@@ -129,6 +124,10 @@ export default defineConfig({
       //   text: 'Roadmap',
       //   link: '/roadmap',
       // },
+      {
+        text: 'Risks disclosure',
+        link: '/risks'
+      },
 
       {
         text: 'Term of use',
