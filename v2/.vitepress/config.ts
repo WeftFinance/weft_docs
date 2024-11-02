@@ -106,7 +106,7 @@ export default defineConfig({
 
       {
         text: 'Protocol configuration',
-        link: '/configuration/global',
+        link: '/configuration/lending',
         collapsed: false,
         items: [
           {
