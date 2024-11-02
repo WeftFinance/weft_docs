@@ -33,7 +33,7 @@ The table below details the interest rate progression for each type of asset acr
 |----------|---------------------|----------------------|-----------------------|------------------------|----------|
 | 0        | Stablecoin           | 0% to 4%             | 4% to 50%              | 50% to 500%            |xSUDC, xUSDT|
 | 1        | XRD                  | 0% to 5%             | 5% to 100%             | 100% to 1000%          |XRD|
-| 2        | Volatile Assets      | 0% to 6%             | 6% to 150%             | 100% to 1500%          |xwBTC,xETH|
+| 2        | Volatile Assets      | 0% to 6%             | 6% to 150%             | 150% to 1500%          |xwBTC,xETH|
 
 These breakpoints ensure that interest rates reflect the varying levels of risk and demand associated with different types of assets, allowing Weft to manage liquidity effectively while optimizing returns for lenders.
 
@@ -47,3 +47,4 @@ These breakpoints ensure that interest rates reflect the varying levels of risk 
 |**DepositLimit**|Define the maximum amount of an asset that can be deposited into a lending pool. It is defined in similar ways of the FlashLoanAmountLimit|SupplyRatio: 50%|
 |**UtilizationLimit**|Maximum allowed pool usage. Meaning the max ratio between total borrowed asset and the total deposited assets| 100% (Not defined)|
 |**InterestUpdatePeriod**|Define (in seconds) the period of interest accrual update and protocol fee calculation| 86400 (1 day)|
+

@@ -110,16 +110,16 @@ export default defineConfig({
         collapsed: false,
         items: [
           {
-            text: 'Global configuration',
-            link: '/configuration/global'
-          },
-          {
             text: 'Lending configuration',
             link: '/configuration/lending'
           },
           {
             text: 'Borrowing configuration',
             link: '/configuration/borrowing'
+          },
+          {
+            text: 'Protocol Fee Configuration',
+            link: '/configuration/fee-config'
           },
         ]
       },

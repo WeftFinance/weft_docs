@@ -1,15 +1,18 @@
-<!-- ## Lending pools configuration
-
-| **Parameter**| **Description** | **Current Value** |
-|--------------|-----------------|-------------------|
-|**FlashLoanAmountLimit**| Define the maximum amount that can be borrowing a flash loan. It'as an optional parameter, but if defined, It can be in two ways: Fix amount, or a ratio of current total supply |SupplyRatio: 20%|
-|**DepositLimit**|Define the maximum amount of an asset that can be deposited into a lending pool. It is defined in similar ways of the FlashLoanAmountLimit|SupplyRatio: 50%|
-|**UtilizationLimit**|Maximum allowed pool usage. Meaning the max ratio between total borrowed asset and the total deposited assets| 100% (Not defined)|
-|**InterestUpdatePeriod**|Define (in seconds) the period of interest accrual update and protocol fee calculation| 86400 (1 day)| -->
 
 # Borrowing configuration
 
 Following parameters form the risk management framework within the Weft protocol, ensuring that borrowing and collateralization activities are managed safely and efficiently.
+
+## Global Configuration 
+
+The table below outlines the key global parameters used within the Weft protocol, including their descriptions and current values.
+
+| **Parameter**| **Description** | **Current Value** |
+|--------------|-----------------|-------------------|
+| **MaxCdpPosition**| To avoid "state bomb" where transaction fees become too high due to excessive state loading, the maximum number of positions allowed in a Wefty is limited.    | 10 |
+| **PriceExpirationPeriod**| The duration (in seconds) for which a fetched asset price remains valid. This represents the maximum accepted keep-alive period from price feeds.|  14400<br/> (4 hours) |
+| **PriceCacheMode**| Price data from Oracles is cached to save on transaction fees. The two caching modes are: **Hash** (cached per transaction) and **Debounce** (cached within a period). | Hash           |
+|**MaxClaimNftValue**|Maximum value in XRD of an unstaking Claim NFT allowed in a CDP|10000000|
 
 
 ## LTV and Liquidation Threshold
@@ -23,12 +26,12 @@ These parameters determine when a collateral asset is considered sufficient to c
 | **ID** | **Description**                 | **Max Loan-To-Value Ratio** | **Liquidation Threshold** | **Liquidation Bonus Rate** | **Associated Resources**                     |
 |--------|---------------------------------|-----------------------------|---------------------------|----------------------------|----------------------------------------------|
 | O      | XRD derivatives                 | 0.75                        | 0.8                       | 10%                        | XRD (With All LSU), LSULP                    |
-| 1      | Bridged Volatile Asset          | 0.75                        | 0.8                       | 10%                        | xwBTC, xETH                                   |
+| 1      | Bridged Volatile Asset          | 0.75                        | 0.8                       | 10%                        | xwBTC, xETH                                  |
 | 2      | Bridged Stable Asset            | 0.65                        | 0.75                      | 10%                        | xUSDC, xUSDT                                 |
-| 3      | dApp Utility Tokens             | 0.25                        | 0.5                       | 15%                        | FLOOP, CAVIAR, OCI, DFP2, ASTRL, WEFT         |
-| 4      | Meme Coins                      | 0.15                        | 0.3                       | 15%                        |                                              |
+| 3      | dApp Utility Tokens             | 0.25                        | 0.5                       | 15%                        | OCI, DFP2, ASTRL, WEFT         |
+| 4      | Meme Coins                      | 0.15                        | 0.3                       | 15%                        | HUG, EARLY                                  |
 | 5      | Default Efficiency Config       | 0.95                        | 0.95                      | 5%                         | (Same resources in the pair)                 |
-| 6      | Default Correlation Group       | 0.9                         | 0.9                       | 10%                        |(Use for all efficiency groups)                                              |
+| 6      | Default Correlation Group       | 0.9                         | 0.9                       | 10%                        | (Use for all efficiency groups)                 |
 
 ## Correlation Groups
 
@@ -46,8 +49,8 @@ These groups categorize different collateral types based on their risk levels, e
 | **ID** | **Description**              | **Associated Resources**                         |
 |--------|------------------------------|-------------------------------------------------|
 | 0      | Default (no isolation)       | XRD (With All LSU), xUSDC, xUSDT, xETH, xwBTC, LSULP |
-| 2      | Ecosystem dApp Tokens        | FLOOP, CAVIAR, OCI, DFP2, ASTRL, WEFT            |
-| 3      | Meme Coins                   |                                                 | 
+| 1      | Ecosystem dApp Tokens        |  OCI, DFP2, ASTRL, WEFT            |
+| 2      | Meme Coins                   |    HUG, EARLY                                             | 
 
 ## Loan Resource Config
 
