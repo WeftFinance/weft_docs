@@ -210,8 +210,8 @@ Scenario Setup 2:
 * Collateral 1: 50,000 XRD (Radix tokens)
     * Value: $0.10 per XRD
     * Loose Risk Index: 4
-* Collateral 2: 0.2 xBTC (tokenized Bitcoin)
-    * Value: $20,000 per xBTC
+* Collateral 2: 0.2 xwBTC (tokenized Bitcoin)
+    * Value: $20,000 per xwBTC
     * Loose Risk Index: 5
 * Loan: 5,000 xUSDT (stablecoin)
     * Value: $1 per xUSDC
@@ -223,8 +223,8 @@ Scenario Setup 2:
 
 * Collateral Value of XRD:
     * 50,000 XRD * $0.10 = $5,000
-* Collateral Value of xBTC:
-    * 0.2 xBTC * $20,000 = $4,000
+* Collateral Value of xwBTC:
+    * 0.2 xwBTC * $20,000 = $4,000
 
 Since both collaterals have Loose Risk Indexes, the CDP Risk Index is the weighted average of the loose risk indexes.
 
