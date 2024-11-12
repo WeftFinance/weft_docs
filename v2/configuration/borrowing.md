@@ -25,13 +25,13 @@ These parameters determine when a collateral asset is considered sufficient to c
 
 | **ID** | **Description**                 | **Max Loan-To-Value Ratio** | **Liquidation Threshold** | **Liquidation Bonus Rate** | **Associated Resources**                     |
 |--------|---------------------------------|-----------------------------|---------------------------|----------------------------|----------------------------------------------|
-| O      | XRD derivatives                 | 0.75                        | 0.8                       | 10%                        | XRD (With All LSU), LSULP                    |
-| 1      | Bridged Volatile Asset          | 0.75                        | 0.8                       | 10%                        | xwBTC, xETH                                  |
+| O      | XRD derivatives                 | 0.75                        | 0.85                      | 10%                        | XRD (With All LSU), LSULP                    |
+| 1      | Bridged Volatile Asset          | 0.75                        | 0.85                       | 10%                        | xwBTC, xETH                                  |
 | 2      | Bridged Stable Asset            | 0.65                        | 0.75                      | 10%                        | xUSDC, xUSDT                                 |
-| 3      | dApp Utility Tokens             | 0.25                        | 0.5                       | 15%                        | (TBD)        |
+| 3      | dApp Utility Tokens             | 0.25                        | 0.4                       | 15%                        | (TBD)        |
 | 4      | Meme Coins                      | 0.15                        | 0.3                       | 15%                        | (TBD)                                 |
-| 5      | Default Efficiency Config       | 0.95                        | 0.95                      | 5%                         | (Same resources in the pair)                 |
-| 6      | Default Correlation Group       | 0.9                         | 0.9                       | 10%                        | (Use for all efficiency groups)                 |
+| 5      | Default Efficiency Config       | 0.93                        | 0.95                      | 3%                         | (Same resources in the pair)                 |
+| 6      | Default Correlation Group       | 0.9                         | 0.92                       | 5%                        | (Use for all efficiency groups)                 |
 
 ## Correlation Groups
 
