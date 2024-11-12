@@ -28,8 +28,8 @@ These parameters determine when a collateral asset is considered sufficient to c
 | O      | XRD derivatives                 | 0.75                        | 0.8                       | 10%                        | XRD (With All LSU), LSULP                    |
 | 1      | Bridged Volatile Asset          | 0.75                        | 0.8                       | 10%                        | xwBTC, xETH                                  |
 | 2      | Bridged Stable Asset            | 0.65                        | 0.75                      | 10%                        | xUSDC, xUSDT                                 |
-| 3      | dApp Utility Tokens             | 0.25                        | 0.5                       | 15%                        | OCI, DFP2, ASTRL, WEFT         |
-| 4      | Meme Coins                      | 0.15                        | 0.3                       | 15%                        | HUG, EARLY                                  |
+| 3      | dApp Utility Tokens             | 0.25                        | 0.5                       | 15%                        | (TBD)        |
+| 4      | Meme Coins                      | 0.15                        | 0.3                       | 15%                        | (TBD)                                 |
 | 5      | Default Efficiency Config       | 0.95                        | 0.95                      | 5%                         | (Same resources in the pair)                 |
 | 6      | Default Correlation Group       | 0.9                         | 0.9                       | 10%                        | (Use for all efficiency groups)                 |
 
@@ -39,7 +39,7 @@ Groups of assets that are closely related, enabling more favorable borrowing ter
 
 | **ID** | **Description**          | **LTV Config ID**                   | **Associated Resources**                   |
 |--------|--------------------------|-------------------------------------|--------------------------------------------|
-| 0      | XRD/LSU and derivatives  | 6 (Default Correlation Group Efficiency) | XRD (With All LSU), LSULP                   |
+| 0      | XRD/LSU and XRD derivatives  | 6 (Default Correlation Group Efficiency) | XRD (With All LSU), LSULP                   |
 | 1      | USD Stable Coins         | 6 (Default Correlation Group Efficiency) | xUSDC, xUSDT                                 |
 
 ## Collateral Isolation Groups
@@ -49,8 +49,8 @@ These groups categorize different collateral types based on their risk levels, e
 | **ID** | **Description**              | **Associated Resources**                         |
 |--------|------------------------------|-------------------------------------------------|
 | 0      | Default (no isolation)       | XRD (With All LSU), xUSDC, xUSDT, xETH, xwBTC, LSULP |
-| 1      | Ecosystem dApp Tokens        |  OCI, DFP2, ASTRL, WEFT            |
-| 2      | Meme Coins                   |    HUG, EARLY                                             | 
+| 1      | Ecosystem dApp Tokens        | (TBD)          |
+| 2      | Meme Coins                   |   (TBD)                                            | 
 
 ## Loan Resource Config
 
