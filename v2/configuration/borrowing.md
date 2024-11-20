@@ -12,8 +12,8 @@ The table below outlines the key global parameters used within the Weft protocol
 | **MaxCdpPosition**| To avoid "state bomb" where transaction fees become too high due to excessive state loading, the maximum number of positions allowed in a Wefty is limited.    | 8 |
 |**maxNftCollateralLoanPositions**|NFT Liquidation is more expensive than Fungible Liquidation. This parameter defines the maximum number of loan positions allowed in a CDP with NFT as collateral to prevent state boom during NFT liquidation|2|
 | **PriceExpirationPeriod**| The duration (in seconds) for which a fetched asset price remains valid. This represents the maximum accepted keep-alive period from price feeds.|  14400<br/> (4 hours) |
-| **PriceCacheMode**| Price data from Oracles is cached to save on transaction fees. The two caching modes are: **Hash** (cached per transaction) and **Debounce** (cached within a period). | Hash           |
-|**MaxClaimNftValue**|Maximum value in XRD of an unstaking Claim NFT allowed in a CDP|10000000|
+| **PriceCacheMode**| Price data from Oracles is cached to save on transaction fees. The two caching modes are: **Hash** (cached per transaction) and **Debounce** (cached within a period). | Debounce 900 (15 minutes)           |
+|**MaxClaimNftValue**|Maximum value of an unstaking Claim NFT allowed in a CDP|1,000,0000 XRD|
 
 
 ## LTV and Liquidation Threshold
@@ -26,13 +26,13 @@ These parameters determine when a collateral asset is considered sufficient to c
 
 | **ID** | **Description**                 | **Max Loan-To-Value Ratio** | **Liquidation Threshold** | **Liquidation Bonus Rate** | **Associated Resources**                     |
 |--------|---------------------------------|-----------------------------|---------------------------|----------------------------|----------------------------------------------|
-| O      | XRD derivatives                 | 0.75                        | 0.80                      | 10%                        | XRD (With All LSU), LSULP                    |
-| 1      | Bridged Volatile Asset          | 0.75                        | 0.80                       | 10%                        | xwBTC, xETH                                  |
-| 2      | Bridged Stable Asset            | 0.65                        | 0.70                      | 10%                        | xUSDC, xUSDT                                 |
-| 3      | dApp Utility Tokens             | 0.25                        | 0.35                       | 15%                        | (TBD)        |
-| 4      | Meme Coins                      | 0.15                        | 0.25                       | 15%                        | (TBD)                                 |
+| O      | XRD derivatives                 | 0.75                        | 0.80                      | 7%                        | XRD (With All LSU), LSULP                    |
+| 1      | Bridged Volatile Asset          | 0.75                        | 0.80                       | 7%                        | xwBTC, xETH                                  |
+| 2      | Bridged Stable Asset            | 0.65                        | 0.70                      | 7%                        | xUSDC, xUSDT                                 |
+| 3      | dApp Utility Tokens             | 0.25                        | 0.35                       | 10%                        | (TBD)        |
+| 4      | Meme Coins                      | 0.15                        | 0.25                       | 10%                        | (TBD)                                 |
 | 5      | Default Efficiency Config       | 0.95                        | 0.96                      | 3%                         | (Same resources in the pair)                 |
-| 6      | Default Correlation Group       | 0.9                         | 0.92                       | 6%                        | (Use for all efficiency groups)                 |
+| 6      | Default Correlation Group       | 0.9                         | 0.92                       | 5%                        | (Use for all efficiency groups)                 |
 
 ## Correlation Groups
 

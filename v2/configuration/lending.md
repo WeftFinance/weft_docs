@@ -43,8 +43,8 @@ These breakpoints ensure that interest rates reflect the varying levels of risk 
 
 | **Parameter**| **Description** | **Current Value** |
 |--------------|-----------------|-------------------|
-|**FlashLoanAmountLimit**| Define the maximum amount that can be borrowing a flash loan. It'as an optional parameter, but if defined, It can be in two ways: Fix amount, or a ratio of current total supply |SupplyRatio: 20%|
+|**FlashLoanAmountLimit**| Define the maximum amount that can be borrowing a flash loan. It'as an optional parameter, but if defined, It can be in two ways: Fix amount, or a ratio of current total supply |Not defined|
 |**DepositLimit**|Define the maximum amount of an asset that can be deposited into a lending pool. It is defined in similar ways of the FlashLoanAmountLimit|SupplyRatio: 50%|
-|**UtilizationLimit**|Maximum allowed pool usage. Meaning the max ratio between total borrowed asset and the total deposited assets| 100% (Not defined)|
+|**UtilizationLimit**|Maximum allowed pool usage. Meaning the max ratio between total borrowed asset and the total deposited assets| 95% |
 |**InterestUpdatePeriod**|Define (in seconds) the period of interest accrual update and protocol fee calculation| 86400 (1 day)|
 
