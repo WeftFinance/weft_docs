@@ -123,6 +123,17 @@ export default defineConfig({
           },
         ]
       },
+      {
+        text: 'For Developer',
+        link: '/dev/liquidation-guide',
+        collapsed: false,
+        items: [
+          {
+            text: 'Liquidation Guide',
+            link: '/dev/liquidation-guide',
+          }
+        ]
+      },
 
       // {
       //   text: 'The WEFT Token',
