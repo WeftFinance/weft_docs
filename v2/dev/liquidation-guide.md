@@ -135,7 +135,7 @@ pub struct CDPHealthChecker {
 ### Steps to Monitor CDP Health  
 1. Call preview of `get_cdp` with the IDs of the CDPs to track.  
 2. Review the `liquidation_ltv` field in the `CDPHealthChecker` output for each CDP.  
-3. Assets liquidation requirements with other data available from `CDPHealthChecker`
+3. Assess liquidation requirements with other data available from `CDPHealthChecker`
 4. Trigger liquidation when `liquidation_ltv > 1`.
 
 
