@@ -149,22 +149,22 @@ Liquidation execution varies based on the type of collateral. Below are the key 
    - If the NFT’s value exceeds the loan, the liquidator must compensate for the difference in XRD.  
    - The liquidator also pays a bonus in XRD for NFTs.
 
-   [View Sample NFT Liquidation Transaction](#)  
+   [View Sample NFT Liquidation Transaction](https://stokenet-dashboard.radixdlt.com/transaction/txid_tdx_2_1dlf9fenztah93gdv3p2dgduhdg794krazxwjkn3rgf7u6tyl0lsqt6puzx/summary)  
 
 2. LSU Liquidation  
    - Involves Liquid Staking Units, requiring additional XRD to cover specific conditions.  
 
-   [View Sample LSU Liquidation Transaction](#)  
+   [View Sample LSU Liquidation Transaction](https://stokenet-dashboard.radixdlt.com/transaction/txid_tdx_2_1p77edqy6ejflpf9wnmx5hmrztgkcn9fqpdnehsah60kxu0trdk3sap8mkw/summary)  
 
 3. Fungible Collateral Liquidation  
    - Handles tokens or other fungible assets.  
 
-   [View Sample Fungible Collateral Liquidation Transaction](#)  
+   [View Sample Fungible Collateral Liquidation Transaction](https://stokenet-dashboard.radixdlt.com/transaction/txid_tdx_2_1s3g3qp7273yzjlduacerhq6fn33ryeuz0rg04rvkuwt5e3npk2zq407tuu/summary)  
 
 4. Deposit Unit Liquidation  
    - Involves liquidating shares from lending pools.  
 
-   [View Sample Deposit Unit Liquidation Transaction](#)  
+   [View Sample Deposit Unit Liquidation Transaction](https://stokenet-dashboard.radixdlt.com/transaction/txid_tdx_2_1yn8w7v8dh6j5x75mrrzlv48t4vfe858s255rpv9zeqzyd9yt073q2fkv0l/summary)  
 
 
 
