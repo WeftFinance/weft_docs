@@ -43,7 +43,7 @@ Groups of assets that are closely related, enabling more favorable borrowing ter
 | 0      | XRD/LSU and XRD derivatives  | 6 (Default Correlation Group Efficiency) | XRD (With All LSU), LSULP                   |
 | 1      | USD Stable Coins         | 6 (Default Correlation Group Efficiency) | xUSDC, xUSDT                                 |
 
-## Collateral Isolation Groups
+<!-- ## Collateral Isolation Groups
 
 These groups categorize different collateral types based on their risk levels, ensuring that assets with varying risk profiles are managed independently.
 
@@ -51,7 +51,7 @@ These groups categorize different collateral types based on their risk levels, e
 |--------|------------------------------|-------------------------------------------------|
 | 0      | Default (no isolation)       | XRD (With All LSU), xUSDC, xUSDT, xETH, xwBTC, LSULP |
 | 1      | Ecosystem dApp Tokens        | (TBD)          |
-| 2      | Meme Coins                   |   (TBD)                                            | 
+| 2      | Meme Coins                   |   (TBD)                                            |  -->
 
 ## Loan Resource Config
 
