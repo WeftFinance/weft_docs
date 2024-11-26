@@ -11,8 +11,8 @@ hero:
       text: Documentation
       link: /intro/intro
     - theme: alt
-      text: Launch the dApp (Beta)
-      # link: https://beta.weft.finance
+      text: Launch the dApp
+      link: https://app.weft.finance
     # - theme: alt
     #   text: Roadmap
     #   link: /roadmap
