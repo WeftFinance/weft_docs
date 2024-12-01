@@ -74,6 +74,11 @@ export default defineConfig({
         text: 'The WEFT Token',
         link: '/token',
       },
+      {
+        text: 'Incentive programs',
+        link: '/incentives',
+      },
+
 
       {
         text: 'Revenue and Insurance',
