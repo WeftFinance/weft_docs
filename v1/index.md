@@ -13,9 +13,9 @@ hero:
     - theme: alt
       text: The $WEFT token
       link: /token
-    - theme: alt
-      text: Roadmap
-      link: /roadmap
+    # - theme: alt
+    #   text: Roadmap
+    #   link: /roadmap
 
 features:
   - title: Lend

@@ -45,7 +45,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Overview', link: '/overview' },
-      { text: 'Roadmap', link: '/roadmap' },
+      // { text: 'Roadmap', link: '/roadmap' },
       { text: 'Launch the dApp', link: 'https://app.weft.finance' }
     ],
 
@@ -84,10 +84,10 @@ export default defineConfig({
         text: 'Revenue and Insurance',
         link: '/revenue',
       },
-      {
-        text: 'Roadmap',
-        link: '/roadmap',
-      },
+      // {
+      //   text: 'Roadmap',
+      //   link: '/roadmap',
+      // },
       {
         text: 'The team',
         link: '/team'
