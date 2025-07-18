@@ -1,6 +1,6 @@
 # The WEFT Token
 
-At Weft, our vision encompasses the construction of a user-friendly ecosystem of decentralized applications (dApps) on Radix DLT, while keeping a forward-thinking mindset. As mentioned in the [overview section](/components#the-weft-token) The WEFT token serves as a last-resort safeguard against the risks associated with market volatility. 
+At Weft, our vision encompasses the construction of a user-friendly ecosystem of decentralized applications (dApps) on Radix DLT, while keeping a forward-thinking mindset. As mentioned in the [overview other component section](/overview/components#the-weft-token) The WEFT token serves as a last-resort safeguard against the risks associated with market volatility. 
 
 ## The token utility
 
