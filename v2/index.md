@@ -11,6 +11,9 @@ hero:
       text: Documentation
       link: /intro/intro
     - theme: alt
+      text: The $WEFT token
+      link: /token
+    - theme: alt
       text: Launch the dApp
       link: https://app.weft.finance
     # - theme: alt

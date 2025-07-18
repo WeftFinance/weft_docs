@@ -100,7 +100,10 @@ export default defineConfig({
             text: 'Revenue Streams',
             link: '/overview/revenue',
           },
-
+          {
+            text: 'The WEFT Token',
+            link: '/token',
+          }
         ]
       },
 
@@ -134,11 +137,6 @@ export default defineConfig({
           }
         ]
       },
-
-      // {
-      //   text: 'The WEFT Token',
-      //   link: '/token',
-      // },
 
       // {
       //   text: 'Revenue and Insurance',

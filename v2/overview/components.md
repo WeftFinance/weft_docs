@@ -11,3 +11,8 @@ Real-time and accurate asset prices are crucial to determine the Borrowing power
 ## NFT Valuator 
 
 NFT Collateral are accepted only when they can be redeemed for underlying resources that are accepted as collateral, however, Weft Lending protocol needs a way to get the amount of underlying assets for a given NFT ID to be able to perform its borrowing Po contribution evaluation. These details are provided by an on ledger component specifically designed for that purpose and deployed prior creation of the collateral pool. 
+
+
+## The WEFT Token
+
+Lending Pools rely on over-collateralization and liquidation to ensure their stability. While these mechanisms offer strong protection, there may be rare instances where critical situations arise, leaving limited time for adequate reaction. To address this concern, we introduce the WEFT token. An asset designed to enhance the security within the Weft ecosystem. You can find more detail on the WEFT token [here](/token).
